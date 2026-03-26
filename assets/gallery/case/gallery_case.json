@@ -1,0 +1,1452 @@
+[
+  {
+    "task": "customization",
+    "imgnum": "1-3",
+    "idx": "001",
+    "sample_id": "00000005",
+    "score": 10.0,
+    "prompt": "Generate an image of the man from <image 1> wearing a casual turtleneck sweater. He is standing inside a quiet library with wooden bookshelves in the background.",
+    "input_images": [
+      "assets/gallery/case/customization/1-3/001/input/input_1.jpg"
+    ],
+    "gt_image": "assets/gallery/case/customization/1-3/001/gt.jpg",
+    "outputs": {
+      "gpt": "assets/gallery/case/customization/1-3/001/output/gpt.jpg",
+      "nano": "assets/gallery/case/customization/1-3/001/output/nano.jpg",
+      "bagel": "assets/gallery/case/customization/1-3/001/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/customization/1-3/001/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/customization/1-3/001/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/customization/1-3/001/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/customization/1-3/001/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/customization/1-3/001/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/customization/1-3/001/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/customization/1-3/001/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/customization/1-3/001/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/customization/1-3/001/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "customization",
+    "imgnum": "1-3",
+    "idx": "002",
+    "sample_id": "00000007",
+    "score": 10.0,
+    "prompt": "Generate an artistic image in the style of <image 3>. The composition should feature the man from <image 1> and the man from <image 2> together. Apply the distinctive mixed-media and collage aesthetic from <image 3> to the portrayal of these two figures, integrating them into the artistic presentation.",
+    "input_images": [
+      "assets/gallery/case/customization/1-3/002/input/input_1.jpg",
+      "assets/gallery/case/customization/1-3/002/input/input_2.jpg",
+      "assets/gallery/case/customization/1-3/002/input/input_3.jpg"
+    ],
+    "gt_image": "assets/gallery/case/customization/1-3/002/gt.jpg",
+    "outputs": {
+      "gpt": "assets/gallery/case/customization/1-3/002/output/gpt.jpg",
+      "nano": "assets/gallery/case/customization/1-3/002/output/nano.jpg",
+      "bagel": "assets/gallery/case/customization/1-3/002/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/customization/1-3/002/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/customization/1-3/002/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/customization/1-3/002/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/customization/1-3/002/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/customization/1-3/002/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/customization/1-3/002/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/customization/1-3/002/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/customization/1-3/002/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/customization/1-3/002/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "customization",
+    "imgnum": "1-3",
+    "idx": "003",
+    "sample_id": "00000009",
+    "score": 10.0,
+    "prompt": "Generate an image of the woman from <image 1> wearing a professional navy blue suit. She is standing in a bright, modern office conference room with glass windows in the background.",
+    "input_images": [
+      "assets/gallery/case/customization/1-3/003/input/input_1.jpg"
+    ],
+    "gt_image": "assets/gallery/case/customization/1-3/003/gt.jpg",
+    "outputs": {
+      "gpt": "assets/gallery/case/customization/1-3/003/output/gpt.jpg",
+      "nano": "assets/gallery/case/customization/1-3/003/output/nano.jpg",
+      "bagel": "assets/gallery/case/customization/1-3/003/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/customization/1-3/003/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/customization/1-3/003/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/customization/1-3/003/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/customization/1-3/003/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/customization/1-3/003/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/customization/1-3/003/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/customization/1-3/003/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/customization/1-3/003/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/customization/1-3/003/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "customization",
+    "imgnum": "4-5",
+    "idx": "001",
+    "sample_id": "00000008",
+    "score": 10.0,
+    "prompt": "Generate an image featuring the young man from <image 1>, the middle-aged man from <image 2>, and the woman from <image 3>. The woman from <image 3> is wearing the dress from <image 4>. Arrange the three people standing together in a natural group composition.",
+    "input_images": [
+      "assets/gallery/case/customization/4-5/001/input/input_1.jpg",
+      "assets/gallery/case/customization/4-5/001/input/input_2.jpg",
+      "assets/gallery/case/customization/4-5/001/input/input_3.jpg",
+      "assets/gallery/case/customization/4-5/001/input/input_4.jpg"
+    ],
+    "gt_image": "assets/gallery/case/customization/4-5/001/gt.jpg",
+    "outputs": {
+      "gpt": "assets/gallery/case/customization/4-5/001/output/gpt.jpg",
+      "nano": "assets/gallery/case/customization/4-5/001/output/nano.jpg",
+      "bagel": "assets/gallery/case/customization/4-5/001/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/customization/4-5/001/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/customization/4-5/001/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/customization/4-5/001/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/customization/4-5/001/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/customization/4-5/001/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/customization/4-5/001/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/customization/4-5/001/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/customization/4-5/001/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/customization/4-5/001/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "customization",
+    "imgnum": "4-5",
+    "idx": "002",
+    "sample_id": "00000021",
+    "score": 10.0,
+    "prompt": "Generate an outdoor scene with the brick building from <image 1> as the background. In the foreground, place the woman from <image 2> and the man from <image 4> standing side by side. The woman from <image 2> is wearing the white blouse from <image 3>. The man from <image 4> stands next to her, positioned naturally within the scene.",
+    "input_images": [
+      "assets/gallery/case/customization/4-5/002/input/input_1.jpg",
+      "assets/gallery/case/customization/4-5/002/input/input_2.jpg",
+      "assets/gallery/case/customization/4-5/002/input/input_3.jpg",
+      "assets/gallery/case/customization/4-5/002/input/input_4.jpg"
+    ],
+    "gt_image": "assets/gallery/case/customization/4-5/002/gt.jpg",
+    "outputs": {
+      "gpt": "assets/gallery/case/customization/4-5/002/output/gpt.jpg",
+      "nano": "assets/gallery/case/customization/4-5/002/output/nano.jpg",
+      "bagel": "assets/gallery/case/customization/4-5/002/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/customization/4-5/002/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/customization/4-5/002/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/customization/4-5/002/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/customization/4-5/002/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/customization/4-5/002/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/customization/4-5/002/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/customization/4-5/002/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/customization/4-5/002/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/customization/4-5/002/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "customization",
+    "imgnum": "4-5",
+    "idx": "003",
+    "sample_id": "00000044",
+    "score": 10.0,
+    "prompt": "Generate an image of the man from <image 1> standing beside the woman from <image 2>. The woman is wearing the dress from <image 3> and holding the handbag from <image 4>.",
+    "input_images": [
+      "assets/gallery/case/customization/4-5/003/input/input_1.jpg",
+      "assets/gallery/case/customization/4-5/003/input/input_2.jpg",
+      "assets/gallery/case/customization/4-5/003/input/input_3.jpg",
+      "assets/gallery/case/customization/4-5/003/input/input_4.jpg"
+    ],
+    "gt_image": "assets/gallery/case/customization/4-5/003/gt.jpg",
+    "outputs": {
+      "gpt": "assets/gallery/case/customization/4-5/003/output/gpt.jpg",
+      "nano": "assets/gallery/case/customization/4-5/003/output/nano.jpg",
+      "bagel": "assets/gallery/case/customization/4-5/003/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/customization/4-5/003/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/customization/4-5/003/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/customization/4-5/003/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/customization/4-5/003/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/customization/4-5/003/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/customization/4-5/003/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/customization/4-5/003/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/customization/4-5/003/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/customization/4-5/003/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "customization",
+    "imgnum": "6-7",
+    "idx": "001",
+    "sample_id": "00000013",
+    "score": 10.0,
+    "prompt": "Use the room with display cases from <image 1> as the background. Populate the scene with the man from <image 2>, the young man from <image 3>, the woman from <image 4>, the man from <image 5>, and the woman from <image 6>. Ensure the woman from <image 6> is wearing the leather shirt from <image 7>. Arrange them standing in a group near the wall displays.",
+    "input_images": [
+      "assets/gallery/case/customization/6-7/001/input/input_1.jpg",
+      "assets/gallery/case/customization/6-7/001/input/input_2.jpg",
+      "assets/gallery/case/customization/6-7/001/input/input_3.jpg",
+      "assets/gallery/case/customization/6-7/001/input/input_4.jpg",
+      "assets/gallery/case/customization/6-7/001/input/input_5.jpg",
+      "assets/gallery/case/customization/6-7/001/input/input_6.jpg",
+      "assets/gallery/case/customization/6-7/001/input/input_7.jpg"
+    ],
+    "gt_image": "assets/gallery/case/customization/6-7/001/gt.jpg",
+    "outputs": {
+      "gpt": "assets/gallery/case/customization/6-7/001/output/gpt.jpg",
+      "nano": "assets/gallery/case/customization/6-7/001/output/nano.jpg",
+      "bagel": "assets/gallery/case/customization/6-7/001/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/customization/6-7/001/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/customization/6-7/001/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/customization/6-7/001/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/customization/6-7/001/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/customization/6-7/001/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/customization/6-7/001/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/customization/6-7/001/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/customization/6-7/001/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/customization/6-7/001/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "customization",
+    "imgnum": "6-7",
+    "idx": "002",
+    "sample_id": "00000153",
+    "score": 10.0,
+    "prompt": "Generate a group portrait in the pencil sketch style of <image 4>. The composition features four women standing together: the woman from <image 1>, the woman from <image 3>, the woman from <image 5>, and the woman from <image 2> who is wearing the dress from <image 6>. Arrange them side-by-side in a natural row. Ensure the entire image is rendered with the artistic shading and texture of the sketch style shown in <image 4>.",
+    "input_images": [
+      "assets/gallery/case/customization/6-7/002/input/input_1.jpg",
+      "assets/gallery/case/customization/6-7/002/input/input_2.jpg",
+      "assets/gallery/case/customization/6-7/002/input/input_3.jpg",
+      "assets/gallery/case/customization/6-7/002/input/input_4.jpg",
+      "assets/gallery/case/customization/6-7/002/input/input_5.jpg",
+      "assets/gallery/case/customization/6-7/002/input/input_6.jpg"
+    ],
+    "gt_image": "assets/gallery/case/customization/6-7/002/gt.jpg",
+    "outputs": {
+      "gpt": "assets/gallery/case/customization/6-7/002/output/gpt.jpg",
+      "nano": "assets/gallery/case/customization/6-7/002/output/nano.jpg",
+      "bagel": "assets/gallery/case/customization/6-7/002/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/customization/6-7/002/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/customization/6-7/002/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/customization/6-7/002/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/customization/6-7/002/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/customization/6-7/002/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/customization/6-7/002/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/customization/6-7/002/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/customization/6-7/002/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/customization/6-7/002/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "customization",
+    "imgnum": "6-7",
+    "idx": "003",
+    "sample_id": "00000246",
+    "score": 10.0,
+    "prompt": "Generate a group photo featuring four people standing together. Position the woman from <image 1> wearing the black dress from <image 4> on the left. Next to her, place the woman from <image 5> wearing the yellow dress from <image 2>. Then, include the man from <image 3> wearing the shirt from <image 6>. Finally, position the woman from <image 7> on the right side of the group.",
+    "input_images": [
+      "assets/gallery/case/customization/6-7/003/input/input_1.jpg",
+      "assets/gallery/case/customization/6-7/003/input/input_2.jpg",
+      "assets/gallery/case/customization/6-7/003/input/input_3.jpg",
+      "assets/gallery/case/customization/6-7/003/input/input_4.jpg",
+      "assets/gallery/case/customization/6-7/003/input/input_5.jpg",
+      "assets/gallery/case/customization/6-7/003/input/input_6.jpg",
+      "assets/gallery/case/customization/6-7/003/input/input_7.jpg"
+    ],
+    "gt_image": "assets/gallery/case/customization/6-7/003/gt.jpg",
+    "outputs": {
+      "gpt": "assets/gallery/case/customization/6-7/003/output/gpt.jpg",
+      "nano": "assets/gallery/case/customization/6-7/003/output/nano.jpg",
+      "bagel": "assets/gallery/case/customization/6-7/003/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/customization/6-7/003/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/customization/6-7/003/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/customization/6-7/003/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/customization/6-7/003/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/customization/6-7/003/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/customization/6-7/003/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/customization/6-7/003/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/customization/6-7/003/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/customization/6-7/003/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "customization",
+    "imgnum": ">=8",
+    "idx": "001",
+    "sample_id": "00000178",
+    "score": 9.9388,
+    "prompt": "Generate a group portrait of four people standing together. The woman from <image 3> wears the striped dress from <image 6>. The woman from <image 2> is dressed in the lace top from <image 7> paired with the trousers from <image 9>. The woman from <image 4> wears the grey sweater from <image 5>. The man from <image 1> stands alongside them, holding the biscuit from <image 8> in his hand.",
+    "input_images": [
+      "assets/gallery/case/customization/>=8/001/input/input_1.jpg",
+      "assets/gallery/case/customization/>=8/001/input/input_2.jpg",
+      "assets/gallery/case/customization/>=8/001/input/input_3.jpg",
+      "assets/gallery/case/customization/>=8/001/input/input_4.jpg",
+      "assets/gallery/case/customization/>=8/001/input/input_5.jpg",
+      "assets/gallery/case/customization/>=8/001/input/input_6.jpg",
+      "assets/gallery/case/customization/>=8/001/input/input_7.jpg",
+      "assets/gallery/case/customization/>=8/001/input/input_8.jpg",
+      "assets/gallery/case/customization/>=8/001/input/input_9.jpg"
+    ],
+    "gt_image": "assets/gallery/case/customization/>=8/001/gt.jpg",
+    "outputs": {
+      "gpt": "assets/gallery/case/customization/>=8/001/output/gpt.jpg",
+      "nano": "assets/gallery/case/customization/>=8/001/output/nano.jpg",
+      "bagel": "assets/gallery/case/customization/>=8/001/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/customization/>=8/001/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/customization/>=8/001/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/customization/>=8/001/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/customization/>=8/001/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/customization/>=8/001/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/customization/>=8/001/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/customization/>=8/001/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/customization/>=8/001/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/customization/>=8/001/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "customization",
+    "imgnum": ">=8",
+    "idx": "002",
+    "sample_id": "00000021",
+    "score": 9.9313,
+    "prompt": "Generate a scene in the store aisle from <image 3>. The young woman from <image 6> is wearing the dress from <image 5> and holding the flower from <image 7> in her hand. Standing next to her, the middle-aged woman from <image 2> wears the coat from <image 4>. The man from <image 1> stands with the group, looking at the items.",
+    "input_images": [
+      "assets/gallery/case/customization/>=8/002/input/input_1.jpg",
+      "assets/gallery/case/customization/>=8/002/input/input_2.jpg",
+      "assets/gallery/case/customization/>=8/002/input/input_3.jpg",
+      "assets/gallery/case/customization/>=8/002/input/input_4.jpg",
+      "assets/gallery/case/customization/>=8/002/input/input_5.jpg",
+      "assets/gallery/case/customization/>=8/002/input/input_6.jpg",
+      "assets/gallery/case/customization/>=8/002/input/input_7.jpg",
+      "assets/gallery/case/customization/>=8/002/input/input_8.jpg"
+    ],
+    "gt_image": "assets/gallery/case/customization/>=8/002/gt.jpg",
+    "outputs": {
+      "gpt": "assets/gallery/case/customization/>=8/002/output/gpt.jpg",
+      "nano": "assets/gallery/case/customization/>=8/002/output/nano.jpg",
+      "bagel": "assets/gallery/case/customization/>=8/002/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/customization/>=8/002/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/customization/>=8/002/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/customization/>=8/002/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/customization/>=8/002/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/customization/>=8/002/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/customization/>=8/002/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/customization/>=8/002/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/customization/>=8/002/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/customization/>=8/002/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "customization",
+    "imgnum": ">=8",
+    "idx": "003",
+    "sample_id": "00000197",
+    "score": 9.798,
+    "prompt": "Generate an image using the background scene from <image 1>. Place four people standing together on the path. The woman from <image 6> is wearing the black dress from <image 3>. The woman from <image 7> is wearing the black top from <image 5> paired with the coral skirt from <image 8>. The man from <image 2> and the man from <image 4> stand beside them. Arrange the group naturally, facing the camera.",
+    "input_images": [
+      "assets/gallery/case/customization/>=8/003/input/input_1.jpg",
+      "assets/gallery/case/customization/>=8/003/input/input_2.jpg",
+      "assets/gallery/case/customization/>=8/003/input/input_3.jpg",
+      "assets/gallery/case/customization/>=8/003/input/input_4.jpg",
+      "assets/gallery/case/customization/>=8/003/input/input_5.jpg",
+      "assets/gallery/case/customization/>=8/003/input/input_6.jpg",
+      "assets/gallery/case/customization/>=8/003/input/input_7.jpg",
+      "assets/gallery/case/customization/>=8/003/input/input_8.jpg"
+    ],
+    "gt_image": "assets/gallery/case/customization/>=8/003/gt.jpg",
+    "outputs": {
+      "gpt": "assets/gallery/case/customization/>=8/003/output/gpt.jpg",
+      "nano": "assets/gallery/case/customization/>=8/003/output/nano.jpg",
+      "bagel": "assets/gallery/case/customization/>=8/003/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/customization/>=8/003/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/customization/>=8/003/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/customization/>=8/003/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/customization/>=8/003/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/customization/>=8/003/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/customization/>=8/003/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/customization/>=8/003/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/customization/>=8/003/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/customization/>=8/003/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "illustration",
+    "imgnum": "1-3",
+    "idx": "001",
+    "sample_id": "00000021",
+    "score": 10.0,
+    "prompt": "Der Blöde Dritte Mittwoch #92 takes place on December 18, 2019, at grillX in Vienna. The event poster displays the lineup of artists: <image 1>\nThe evening features three acts. Sophia Goidinger-Koch, born in 1987 in Innsbruck and based in Vienna, is a freelance artist in contemporary and improvised music. She has collaborated with renowned figures like Vinko Globokar and performed at major festivals. She presents a 'solo violin' performance.\nDanielle Pamp performs 'Elegi', a piece focusing on gender and identity, questioning archetypes of the masculine and feminine through operatic voice.\nPaul Gründorfer and Clemens Hausch present 'AS–MR', exploring sound as a tactile phenomenon using custom electronic devices.\nPictured below is a portrait of the violinist Sophia Goidinger-Koch.",
+    "input_images": [
+      "assets/gallery/case/illustration/1-3/001/input/input_1.jpg"
+    ],
+    "gt_image": "assets/gallery/case/illustration/1-3/001/gt.jpg",
+    "outputs": {
+      "gpt": "assets/gallery/case/illustration/1-3/001/output/gpt.jpg",
+      "nano": "assets/gallery/case/illustration/1-3/001/output/nano.jpg",
+      "bagel": "assets/gallery/case/illustration/1-3/001/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/illustration/1-3/001/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/illustration/1-3/001/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/illustration/1-3/001/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/illustration/1-3/001/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/illustration/1-3/001/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/illustration/1-3/001/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/illustration/1-3/001/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/illustration/1-3/001/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/illustration/1-3/001/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "illustration",
+    "imgnum": "1-3",
+    "idx": "002",
+    "sample_id": "00000032",
+    "score": 10.0,
+    "prompt": "My boys are fascinated with robots, so we felt inspired to build our own using recycled materials. Here is the finished robot. <image 1>\nWe drew inspiration from various robot books and a model in a non-fiction book. We constructed the body from a granola bar box and a cookie box. The robot is double-sided, with my oldest son's artwork on one side and my youngest's on the other. We covered the head box in foil, wrapping it like a present, and used plastic Easter egg halves with drawn-on pupils for the eyes. <image 2>\nFor the neck, we connected the head to the body using a toilet paper roll covered in scrapbook paper. The arms were made from foil-covered toilet paper rolls wrapped in bubble wrap and taped to the body. <image 3>\nFinally, we created the legs using plastic fruit cups. We were too impatient to paint them, so they remain clear. We glued these fruit cup legs to a piece of cardboard covered in foil to provide a stable base for the robot.",
+    "input_images": [
+      "assets/gallery/case/illustration/1-3/002/input/input_1.jpg",
+      "assets/gallery/case/illustration/1-3/002/input/input_2.jpg",
+      "assets/gallery/case/illustration/1-3/002/input/input_3.jpg"
+    ],
+    "gt_image": "assets/gallery/case/illustration/1-3/002/gt.jpg",
+    "outputs": {
+      "gpt": "assets/gallery/case/illustration/1-3/002/output/gpt.jpg",
+      "nano": "assets/gallery/case/illustration/1-3/002/output/nano.jpg",
+      "bagel": "assets/gallery/case/illustration/1-3/002/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/illustration/1-3/002/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/illustration/1-3/002/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/illustration/1-3/002/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/illustration/1-3/002/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/illustration/1-3/002/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/illustration/1-3/002/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/illustration/1-3/002/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/illustration/1-3/002/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/illustration/1-3/002/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "illustration",
+    "imgnum": "1-3",
+    "idx": "003",
+    "sample_id": "00000055",
+    "score": 10.0,
+    "prompt": "The SaniDry™ Basement Air System serves as one of the most effective dehumidifiers available, designed to control moisture and lower humidity to prevent mold and dust mites. This high-capacity system offers consistent, high-efficiency performance. <image 1> The unit combines dehumidification with air filtration, removing up to 100 pints of water a day while using the energy of a standard 40-pint dehumidifier. It filters airborne particles down to two microns, trapping mold spores and dust. The powerful blower moves dry air throughout the basement to eliminate dampness. The system is equipped with a large air filter, shown here being accessed for maintenance.",
+    "input_images": [
+      "assets/gallery/case/illustration/1-3/003/input/input_1.jpg"
+    ],
+    "gt_image": "assets/gallery/case/illustration/1-3/003/gt.jpg",
+    "outputs": {
+      "gpt": "assets/gallery/case/illustration/1-3/003/output/gpt.jpg",
+      "nano": "assets/gallery/case/illustration/1-3/003/output/nano.jpg",
+      "bagel": "assets/gallery/case/illustration/1-3/003/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/illustration/1-3/003/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/illustration/1-3/003/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/illustration/1-3/003/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/illustration/1-3/003/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/illustration/1-3/003/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/illustration/1-3/003/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/illustration/1-3/003/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/illustration/1-3/003/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/illustration/1-3/003/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "illustration",
+    "imgnum": "4-5",
+    "idx": "001",
+    "sample_id": "00000011",
+    "score": 10.0,
+    "prompt": "This Fireproof Large Gun Safe Cabinet provides secure storage for up to 5 rifles and 2 pistols. It features a deeper design to accommodate scoped rifles up to 50 inches and includes a separate internal lock box for smaller valuables. <image 1> The security system utilizes a reliable electronic keypad, allowing for custom PIN codes, and includes a backup key for emergency access. <image 2> Built with high-strength, integrally welded steel, the safe features a tamper-proof inner edge and 3 solid live-action locking bolts to prevent prying and theft. <image 3> Inside, the layout includes a removable shelf and a sponge gun holder to organize and protect firearms effectively. <image 4> Designed for ease of use and maximum security, the safe can be mounted to the floor or wall. The final view displays the safe in both its open and locked configurations, highlighting the sleek exterior and spacious interior.",
+    "input_images": [
+      "assets/gallery/case/illustration/4-5/001/input/input_1.jpg",
+      "assets/gallery/case/illustration/4-5/001/input/input_2.jpg",
+      "assets/gallery/case/illustration/4-5/001/input/input_3.jpg",
+      "assets/gallery/case/illustration/4-5/001/input/input_4.jpg"
+    ],
+    "gt_image": "assets/gallery/case/illustration/4-5/001/gt.jpg",
+    "outputs": {
+      "gpt": "assets/gallery/case/illustration/4-5/001/output/gpt.jpg",
+      "nano": "assets/gallery/case/illustration/4-5/001/output/nano.jpg",
+      "bagel": "assets/gallery/case/illustration/4-5/001/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/illustration/4-5/001/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/illustration/4-5/001/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/illustration/4-5/001/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/illustration/4-5/001/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/illustration/4-5/001/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/illustration/4-5/001/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/illustration/4-5/001/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/illustration/4-5/001/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/illustration/4-5/001/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "illustration",
+    "imgnum": "4-5",
+    "idx": "002",
+    "sample_id": "00000024",
+    "score": 10.0,
+    "prompt": "High Precision EM-FI Probe Tips Perform precise local glitching using powerful electric magnetic pulses. BBI probes (RBBI/FBBI) <image 1> <image 2> <image 3> Perform precision localized glitches with high power electrical pulses. Advanced pattern-based triggering device for generating time independent pulses to avoid jitter and time-related countermeasures in SCA or FI testing. Easily identify valuable hidden signals buried in noise, for reliable triggering and countermeasure detection. Reduce complexity in Side Channel Analysis (SCA) and Fault Injection (FI) by creating a single control point for communication and glitch pattern generation High-Power Glitch Amplifier Out-of-the-box solution for high power targets up to 10A DPSS Lasers Laser cutter source replacement for fault injection offering fast and reliable triggering and easy control of the output power. Generates accurate and repeatable two nanosecond voltage or clock glitches with fully programmable pattern and control logic Glitch Amplifier II A Security Test Tool for Power Glitches on Embedded Devices. Power Tracer Low-noise transparent card reader for SPA/DPA side channel power measurements with precise triggering capabilities <image 4> Analog filter and demodulator for Electromagnetic (EMA-RF) and Radio Frequency Analysis (RFA) on contactless solutions (ISO/IEC 14443) The entire portfolio of Riscure Tools and complete tool sets is available in our new automated quotation system. Select the tools your want and we will get back to you with a quotation. Contact us Bartek Gedrojc 大虎 Sales and Business Development Director Tools",
+    "input_images": [
+      "assets/gallery/case/illustration/4-5/002/input/input_1.jpg",
+      "assets/gallery/case/illustration/4-5/002/input/input_2.jpg",
+      "assets/gallery/case/illustration/4-5/002/input/input_3.jpg",
+      "assets/gallery/case/illustration/4-5/002/input/input_4.jpg"
+    ],
+    "gt_image": "assets/gallery/case/illustration/4-5/002/gt.jpg",
+    "outputs": {
+      "nano": "assets/gallery/case/illustration/4-5/002/output/nano.jpg",
+      "bagel": "assets/gallery/case/illustration/4-5/002/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/illustration/4-5/002/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/illustration/4-5/002/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/illustration/4-5/002/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/illustration/4-5/002/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/illustration/4-5/002/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/illustration/4-5/002/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/illustration/4-5/002/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/illustration/4-5/002/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/illustration/4-5/002/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "illustration",
+    "imgnum": "4-5",
+    "idx": "003",
+    "sample_id": "00000032",
+    "score": 10.0,
+    "prompt": "As we head into the coldest, driest part of the year, I adjust my skincare routine to maintain moisture for my dry skin. Here is the collection of products I rely on. <image 1>\nStep 1: To start, I tie my hair back with a headband and wear a robe to keep my clothes dry. <image 2>\nStep 2: I remove any makeup using 100% Extra Virgin Coconut Oil. The oil breaks down makeup effectively while adding moisture, preventing the need for harsh tugging on the skin. <image 3>\nStep 3: I wipe away the oil and makeup with a gentle cleansing wipe.\nStep 4: I cleanse my face with Neutrogena Hydro Boost Cleanser. I love this product because it cleanses without stripping natural oils, and a little goes a long way. <image 4>\nStep 5: I apply a hydrating toner to reset the skin.\nStep 6: I massage in a face oil or serum. Occasionally, I use a jade roller to help the oil penetrate deeply and to depuff my face.\nStep 7: I lock in the hydration with a daily facial moisturizer.\nAlthough I've finished the routine, here is a look back at the cleansing step, showing the rich lather of the Hydro Boost Cleanser on my face.",
+    "input_images": [
+      "assets/gallery/case/illustration/4-5/003/input/input_1.jpg",
+      "assets/gallery/case/illustration/4-5/003/input/input_2.jpg",
+      "assets/gallery/case/illustration/4-5/003/input/input_3.jpg",
+      "assets/gallery/case/illustration/4-5/003/input/input_4.jpg"
+    ],
+    "gt_image": "assets/gallery/case/illustration/4-5/003/gt.jpg",
+    "outputs": {
+      "nano": "assets/gallery/case/illustration/4-5/003/output/nano.jpg",
+      "bagel": "assets/gallery/case/illustration/4-5/003/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/illustration/4-5/003/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/illustration/4-5/003/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/illustration/4-5/003/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/illustration/4-5/003/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/illustration/4-5/003/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/illustration/4-5/003/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/illustration/4-5/003/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/illustration/4-5/003/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/illustration/4-5/003/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "illustration",
+    "imgnum": "6-7",
+    "idx": "001",
+    "sample_id": "00000014",
+    "score": 10.0,
+    "prompt": "WASHINGTON — It was 1962 when D.C. pulled the plug on the city's trolley system and shuttered the Dupont Circle station. Other than a short stint as a fallout shelter in the 1960s and a food court in the 1990s, the station remained largely unused for more than 50 years. <image 1> <image 2> For months now, the Arts Coalition for the Dupont Underground has been in the forgotten tunnels with tracks, with the goal of adding art and welcoming the public in this year. <image 3> \"It's a way to show the world that this is a top-tier art city,\" says Philippa Hughes, with the Arts Coalition for Dupont Underground. The group is leasing the station from the city and plans to open its doors on April 30. The first exhibition is called \"Raise/Raze,\" which will consist of 650,000 plastic balls used during the Beach Exhibit last summer at the National Building Museum. <image 4> <image 5> \"People will be able to come down and see cubes everywhere and they can build them into different structures,\" Hughes says. <image 6> Hou de Sousa, a firm from New York, won a design competition for the exhibit, and they will begin putting it together this weekend. Hughes said volunteers have already begun work making the cubes which will be used to assemble the exhibit. Getting the tunnel to this point has involved countless volunteer hours and has uncovered some interesting items, including tin cans with crackers from its time as a fallout shelter. <image 7> \"There was a dentist chair … who knows why that was here,\" Hughes says. The $400,000 project has been supported mostly through crowd funding and is part of a five-year lease from the city to Arts Coalition for the Dupont Underground. Tickets for the first event, which runs from April 30 through June 1, are $15 and can be gotten here.",
+    "input_images": [
+      "assets/gallery/case/illustration/6-7/001/input/input_1.jpg",
+      "assets/gallery/case/illustration/6-7/001/input/input_2.jpg",
+      "assets/gallery/case/illustration/6-7/001/input/input_3.jpg",
+      "assets/gallery/case/illustration/6-7/001/input/input_4.jpg",
+      "assets/gallery/case/illustration/6-7/001/input/input_5.jpg",
+      "assets/gallery/case/illustration/6-7/001/input/input_6.jpg",
+      "assets/gallery/case/illustration/6-7/001/input/input_7.jpg"
+    ],
+    "gt_image": "assets/gallery/case/illustration/6-7/001/gt.jpg",
+    "outputs": {
+      "nano": "assets/gallery/case/illustration/6-7/001/output/nano.jpg",
+      "bagel": "assets/gallery/case/illustration/6-7/001/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/illustration/6-7/001/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/illustration/6-7/001/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/illustration/6-7/001/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/illustration/6-7/001/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/illustration/6-7/001/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/illustration/6-7/001/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/illustration/6-7/001/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/illustration/6-7/001/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/illustration/6-7/001/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "illustration",
+    "imgnum": "6-7",
+    "idx": "002",
+    "sample_id": "00000042",
+    "score": 10.0,
+    "prompt": "Dior has released the Diorskin Star Foundation, featuring intelligent light-reflecting pigments that brighten the skin and correct dark spots while offering SPF 30 protection. The product line is presented in chic, square glass packaging that reflects the brand's elegant aesthetic. <image 1> <image 2> <image 3> The foundation bottle is designed with a pump for easy dispensing and contains a lightweight, liquid formula that builds from medium to full coverage. <image 4> It sets to a luminous matte finish that looks natural and seamless. The swatches here demonstrate the texture and coverage of the shades. <image 5> Complementing the foundation is the Diorskin Star Foundation Sponge and the Diorskin Star Concealer. The concealer is designed to neutralize dark circles and illuminate the eye contour with a hydrating, stretch-effect formula, packaged in a sleek tube. <image 6> To ensure precise application, the concealer comes with a built-in sponge tip applicator, as shown in the open tube, which allows for effortless blending and full coverage.",
+    "input_images": [
+      "assets/gallery/case/illustration/6-7/002/input/input_1.jpg",
+      "assets/gallery/case/illustration/6-7/002/input/input_2.jpg",
+      "assets/gallery/case/illustration/6-7/002/input/input_3.jpg",
+      "assets/gallery/case/illustration/6-7/002/input/input_4.jpg",
+      "assets/gallery/case/illustration/6-7/002/input/input_5.jpg",
+      "assets/gallery/case/illustration/6-7/002/input/input_6.jpg"
+    ],
+    "gt_image": "assets/gallery/case/illustration/6-7/002/gt.jpg",
+    "outputs": {
+      "nano": "assets/gallery/case/illustration/6-7/002/output/nano.jpg",
+      "bagel": "assets/gallery/case/illustration/6-7/002/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/illustration/6-7/002/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/illustration/6-7/002/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/illustration/6-7/002/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/illustration/6-7/002/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/illustration/6-7/002/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/illustration/6-7/002/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/illustration/6-7/002/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/illustration/6-7/002/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/illustration/6-7/002/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "illustration",
+    "imgnum": "6-7",
+    "idx": "003",
+    "sample_id": "00000085",
+    "score": 10.0,
+    "prompt": "Shenzhen Dragon Glass, founded in 1994, is a professional manufacturer dedicated to providing excellent quality tempered glass to clients worldwide. We focus on every process to ensure perfection, with a large output that keeps our prices competitive. <image 1> Our installation process ensures safety. The tempering process involves heating edge-worked glass to over 600 degrees and cooling it with strong wind jets, creating high surface pressure and balanced interior tension to increase strength fivefold. <image 2> The resulting glass is super flat, distortion-free, and has high transmittance. It is tough enough to endure powerful impacts. If it does break, it shatters into small, blunt fragments rather than sharp shards, ensuring no harm to humans. <image 3> Here is a view of our production facilities: <image 4> <image 5> We conduct careful quality control inspections, including checks on size, surface, and stress, to ensure perfection before delivery. <image 6> We adopt top-grade raw materials and utilize precise processing techniques, such as drilling holes with accurate sizes and positioning. <image 7> Our tempered glass is available in various colors and thicknesses, suitable for facades, railings, and windows. After passing impact testing and stress inspections, the products are ready for shipment. We use strong plywood crates to ensure the safety of our glass products during long-distance transportation.",
+    "input_images": [
+      "assets/gallery/case/illustration/6-7/003/input/input_1.jpg",
+      "assets/gallery/case/illustration/6-7/003/input/input_2.jpg",
+      "assets/gallery/case/illustration/6-7/003/input/input_3.jpg",
+      "assets/gallery/case/illustration/6-7/003/input/input_4.jpg",
+      "assets/gallery/case/illustration/6-7/003/input/input_5.jpg",
+      "assets/gallery/case/illustration/6-7/003/input/input_6.jpg",
+      "assets/gallery/case/illustration/6-7/003/input/input_7.jpg"
+    ],
+    "gt_image": "assets/gallery/case/illustration/6-7/003/gt.jpg",
+    "outputs": {
+      "nano": "assets/gallery/case/illustration/6-7/003/output/nano.jpg",
+      "bagel": "assets/gallery/case/illustration/6-7/003/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/illustration/6-7/003/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/illustration/6-7/003/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/illustration/6-7/003/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/illustration/6-7/003/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/illustration/6-7/003/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/illustration/6-7/003/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/illustration/6-7/003/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/illustration/6-7/003/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/illustration/6-7/003/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "illustration",
+    "imgnum": ">=8",
+    "idx": "001",
+    "sample_id": "00000026",
+    "score": 10.0,
+    "prompt": "Join 'The Greatest' Ocean Road tour to experience a story of ancient culture, shipwrecks, and geology. This loop covers the entire trail, including the Grampians and the Bellarine Peninsula. <image 1>\n\nWe explore the massive limestone cliffs and descend the Gibson Steps to walk on the pristine sands below. <image 2>\n\nOur journey is a complete loop starting and ending in Melbourne, hitting every major highlight along the coast and inland. <image 3>\n\nI know this area intimately, from the popular surf beaches to the quiet, sun-drenched shores. <image 4>\n\nWe trek through the ancient rainforests of the Otways, surrounded by lush ferns and towering trees. <image 5>\n\nWitness the iconic Twelve Apostles rising majestically from the Southern Ocean. <image 6>\n\nEnjoy moments of solitude gazing out at the endless horizon <image 7>\n\nand explore hidden rock arches and caves along the rugged coastline. <image 8>\n\nThe tour includes all meals, transport, and camping gear—just bring your hiking shoes, warm clothes, and a sense of adventure. We finish with one last look at the breathtaking coast that makes this tour unforgettable.",
+    "input_images": [
+      "assets/gallery/case/illustration/>=8/001/input/input_1.jpg",
+      "assets/gallery/case/illustration/>=8/001/input/input_2.jpg",
+      "assets/gallery/case/illustration/>=8/001/input/input_3.jpg",
+      "assets/gallery/case/illustration/>=8/001/input/input_4.jpg",
+      "assets/gallery/case/illustration/>=8/001/input/input_5.jpg",
+      "assets/gallery/case/illustration/>=8/001/input/input_6.jpg",
+      "assets/gallery/case/illustration/>=8/001/input/input_7.jpg",
+      "assets/gallery/case/illustration/>=8/001/input/input_8.jpg"
+    ],
+    "gt_image": "assets/gallery/case/illustration/>=8/001/gt.jpg",
+    "outputs": {
+      "nano": "assets/gallery/case/illustration/>=8/001/output/nano.jpg",
+      "bagel": "assets/gallery/case/illustration/>=8/001/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/illustration/>=8/001/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/illustration/>=8/001/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/illustration/>=8/001/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/illustration/>=8/001/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/illustration/>=8/001/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/illustration/>=8/001/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/illustration/>=8/001/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/illustration/>=8/001/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/illustration/>=8/001/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "illustration",
+    "imgnum": ">=8",
+    "idx": "002",
+    "sample_id": "00000028",
+    "score": 10.0,
+    "prompt": "Produced by John Carrow around 1884, this silverplate tea service features foliate motifs including roses, urn finials, and elaborate scrolled feet. <image 1> <image 2> The set includes a large cream pitcher <image 3>, two identical pots <image 4>, and a waste bowl <image 5>. The pieces show original thin lacquer with light flaking, but the plating is well-preserved. Detailed views highlight the floral bands <image 6>, scrolled feet <image 7>, and handle attachments <image 8>. The items are clearly marked and numbered '2760', 'Triple Plate', with a patent date of February 1, 1876. <image 9>",
+    "input_images": [
+      "assets/gallery/case/illustration/>=8/002/input/input_1.jpg",
+      "assets/gallery/case/illustration/>=8/002/input/input_2.jpg",
+      "assets/gallery/case/illustration/>=8/002/input/input_3.jpg",
+      "assets/gallery/case/illustration/>=8/002/input/input_4.jpg",
+      "assets/gallery/case/illustration/>=8/002/input/input_5.jpg",
+      "assets/gallery/case/illustration/>=8/002/input/input_6.jpg",
+      "assets/gallery/case/illustration/>=8/002/input/input_7.jpg",
+      "assets/gallery/case/illustration/>=8/002/input/input_8.jpg",
+      "assets/gallery/case/illustration/>=8/002/input/input_9.jpg"
+    ],
+    "gt_image": "assets/gallery/case/illustration/>=8/002/gt.jpg",
+    "outputs": {
+      "gpt": "assets/gallery/case/illustration/>=8/002/output/gpt.jpg",
+      "nano": "assets/gallery/case/illustration/>=8/002/output/nano.jpg",
+      "bagel": "assets/gallery/case/illustration/>=8/002/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/illustration/>=8/002/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/illustration/>=8/002/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/illustration/>=8/002/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/illustration/>=8/002/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/illustration/>=8/002/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/illustration/>=8/002/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/illustration/>=8/002/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/illustration/>=8/002/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/illustration/>=8/002/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "illustration",
+    "imgnum": ">=8",
+    "idx": "003",
+    "sample_id": "00000039",
+    "score": 10.0,
+    "prompt": "This Eighties desk lamp by Stephan Copeland for Arteluce Italy is shown here illuminated <image 1>. It features black plastic and anthracite metal construction <image 2>. The flexible arms allow it to extend horizontally <image 3>. The lamp uses a halogen bulb <image 4>, and the cast iron base is clearly labeled <image 5>. It can be positioned upright to a height of 110cm <image 6>, utilizing durable flexible joints <image 7>. The head has a ribbed texture <image 8> and a sculpted form <image 9>. Ideally suited for a desk, the lamp is in excellent condition .",
+    "input_images": [
+      "assets/gallery/case/illustration/>=8/003/input/input_1.jpg",
+      "assets/gallery/case/illustration/>=8/003/input/input_2.jpg",
+      "assets/gallery/case/illustration/>=8/003/input/input_3.jpg",
+      "assets/gallery/case/illustration/>=8/003/input/input_4.jpg",
+      "assets/gallery/case/illustration/>=8/003/input/input_5.jpg",
+      "assets/gallery/case/illustration/>=8/003/input/input_6.jpg",
+      "assets/gallery/case/illustration/>=8/003/input/input_7.jpg",
+      "assets/gallery/case/illustration/>=8/003/input/input_8.jpg",
+      "assets/gallery/case/illustration/>=8/003/input/input_9.jpg"
+    ],
+    "gt_image": "assets/gallery/case/illustration/>=8/003/gt.jpg",
+    "outputs": {
+      "gpt": "assets/gallery/case/illustration/>=8/003/output/gpt.jpg",
+      "nano": "assets/gallery/case/illustration/>=8/003/output/nano.jpg",
+      "bagel": "assets/gallery/case/illustration/>=8/003/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/illustration/>=8/003/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/illustration/>=8/003/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/illustration/>=8/003/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/illustration/>=8/003/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/illustration/>=8/003/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/illustration/>=8/003/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/illustration/>=8/003/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/illustration/>=8/003/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/illustration/>=8/003/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "spatial",
+    "imgnum": "1-3",
+    "idx": "001",
+    "sample_id": "00000015",
+    "score": 10.0,
+    "prompt": "For a fixed object, <image 1> is the back view, <image 2> is the top view, <image 3> is the right view. From above, the sequence Front -> Left -> Back -> Right follows a clockwise order. Generate the back-right view.",
+    "input_images": [
+      "assets/gallery/case/spatial/1-3/001/input/input_1.jpg",
+      "assets/gallery/case/spatial/1-3/001/input/input_2.jpg",
+      "assets/gallery/case/spatial/1-3/001/input/input_3.jpg"
+    ],
+    "gt_image": "assets/gallery/case/spatial/1-3/001/gt.jpg",
+    "outputs": {
+      "gpt": "assets/gallery/case/spatial/1-3/001/output/gpt.jpg",
+      "nano": "assets/gallery/case/spatial/1-3/001/output/nano.jpg",
+      "bagel": "assets/gallery/case/spatial/1-3/001/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/spatial/1-3/001/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/spatial/1-3/001/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/spatial/1-3/001/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/spatial/1-3/001/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/spatial/1-3/001/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/spatial/1-3/001/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/spatial/1-3/001/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/spatial/1-3/001/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/spatial/1-3/001/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "spatial",
+    "imgnum": "1-3",
+    "idx": "002",
+    "sample_id": "00000134",
+    "score": 10.0,
+    "prompt": "From a fixed camera position, <image 1> is the front-left view, <image 2> is the back-right view, <image 3> is the back-left view. From above, the sequence Front -> Left -> Back -> Right follows a counter-clockwise order. Generate the left view.",
+    "input_images": [
+      "assets/gallery/case/spatial/1-3/002/input/input_1.jpg",
+      "assets/gallery/case/spatial/1-3/002/input/input_2.jpg",
+      "assets/gallery/case/spatial/1-3/002/input/input_3.jpg"
+    ],
+    "gt_image": "assets/gallery/case/spatial/1-3/002/gt.jpg",
+    "outputs": {
+      "gpt": "assets/gallery/case/spatial/1-3/002/output/gpt.jpg",
+      "nano": "assets/gallery/case/spatial/1-3/002/output/nano.jpg",
+      "bagel": "assets/gallery/case/spatial/1-3/002/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/spatial/1-3/002/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/spatial/1-3/002/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/spatial/1-3/002/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/spatial/1-3/002/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/spatial/1-3/002/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/spatial/1-3/002/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/spatial/1-3/002/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/spatial/1-3/002/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/spatial/1-3/002/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "spatial",
+    "imgnum": "1-3",
+    "idx": "003",
+    "sample_id": "00000019",
+    "score": 9.4868,
+    "prompt": "For a fixed object, <image 1> is the back view, <image 2> is the right view. From above, the sequence Front -> Left -> Back -> Right follows a clockwise order. Generate the back-left view.",
+    "input_images": [
+      "assets/gallery/case/spatial/1-3/003/input/input_1.jpg",
+      "assets/gallery/case/spatial/1-3/003/input/input_2.jpg"
+    ],
+    "gt_image": "assets/gallery/case/spatial/1-3/003/gt.jpg",
+    "outputs": {
+      "gpt": "assets/gallery/case/spatial/1-3/003/output/gpt.jpg",
+      "nano": "assets/gallery/case/spatial/1-3/003/output/nano.jpg",
+      "bagel": "assets/gallery/case/spatial/1-3/003/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/spatial/1-3/003/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/spatial/1-3/003/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/spatial/1-3/003/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/spatial/1-3/003/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/spatial/1-3/003/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/spatial/1-3/003/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/spatial/1-3/003/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/spatial/1-3/003/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/spatial/1-3/003/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "spatial",
+    "imgnum": "4-5",
+    "idx": "001",
+    "sample_id": "00000051",
+    "score": 9.4868,
+    "prompt": "For a fixed object, <image 1> is the front-left view, <image 2> is the back-left view, <image 3> is the bottom view, <image 4> is the back-right view, <image 5> is the top view. From above, the sequence Front -> Left -> Back -> Right follows a clockwise order. Generate the left view.",
+    "input_images": [
+      "assets/gallery/case/spatial/4-5/001/input/input_1.jpg",
+      "assets/gallery/case/spatial/4-5/001/input/input_2.jpg",
+      "assets/gallery/case/spatial/4-5/001/input/input_3.jpg",
+      "assets/gallery/case/spatial/4-5/001/input/input_4.jpg",
+      "assets/gallery/case/spatial/4-5/001/input/input_5.jpg"
+    ],
+    "gt_image": "assets/gallery/case/spatial/4-5/001/gt.jpg",
+    "outputs": {
+      "gpt": "assets/gallery/case/spatial/4-5/001/output/gpt.jpg",
+      "nano": "assets/gallery/case/spatial/4-5/001/output/nano.jpg",
+      "bagel": "assets/gallery/case/spatial/4-5/001/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/spatial/4-5/001/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/spatial/4-5/001/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/spatial/4-5/001/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/spatial/4-5/001/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/spatial/4-5/001/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/spatial/4-5/001/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/spatial/4-5/001/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/spatial/4-5/001/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/spatial/4-5/001/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "spatial",
+    "imgnum": "4-5",
+    "idx": "002",
+    "sample_id": "00000062",
+    "score": 9.4868,
+    "prompt": "For a fixed object, <image 1> is the left view, <image 2> is the bottom view, <image 3> is the top view, <image 4> is the right view, <image 5> is the front-right view. From above, the sequence Front -> Left -> Back -> Right follows a clockwise order. Generate the front-left view.",
+    "input_images": [
+      "assets/gallery/case/spatial/4-5/002/input/input_1.jpg",
+      "assets/gallery/case/spatial/4-5/002/input/input_2.jpg",
+      "assets/gallery/case/spatial/4-5/002/input/input_3.jpg",
+      "assets/gallery/case/spatial/4-5/002/input/input_4.jpg",
+      "assets/gallery/case/spatial/4-5/002/input/input_5.jpg"
+    ],
+    "gt_image": "assets/gallery/case/spatial/4-5/002/gt.jpg",
+    "outputs": {
+      "gpt": "assets/gallery/case/spatial/4-5/002/output/gpt.jpg",
+      "nano": "assets/gallery/case/spatial/4-5/002/output/nano.jpg",
+      "bagel": "assets/gallery/case/spatial/4-5/002/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/spatial/4-5/002/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/spatial/4-5/002/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/spatial/4-5/002/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/spatial/4-5/002/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/spatial/4-5/002/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/spatial/4-5/002/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/spatial/4-5/002/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/spatial/4-5/002/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/spatial/4-5/002/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "spatial",
+    "imgnum": "4-5",
+    "idx": "003",
+    "sample_id": "00000120",
+    "score": 9.4868,
+    "prompt": "From a fixed camera position, <image 1> is the front-right view, <image 2> is the front-left view, <image 3> is the top view, <image 4> is the right view, <image 5> is the back view. From above, the sequence Front -> Left -> Back -> Right follows a counter-clockwise order. Generate the front view.",
+    "input_images": [
+      "assets/gallery/case/spatial/4-5/003/input/input_1.jpg",
+      "assets/gallery/case/spatial/4-5/003/input/input_2.jpg",
+      "assets/gallery/case/spatial/4-5/003/input/input_3.jpg",
+      "assets/gallery/case/spatial/4-5/003/input/input_4.jpg",
+      "assets/gallery/case/spatial/4-5/003/input/input_5.jpg"
+    ],
+    "gt_image": "assets/gallery/case/spatial/4-5/003/gt.jpg",
+    "outputs": {
+      "gpt": "assets/gallery/case/spatial/4-5/003/output/gpt.jpg",
+      "nano": "assets/gallery/case/spatial/4-5/003/output/nano.jpg",
+      "bagel": "assets/gallery/case/spatial/4-5/003/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/spatial/4-5/003/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/spatial/4-5/003/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/spatial/4-5/003/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/spatial/4-5/003/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/spatial/4-5/003/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/spatial/4-5/003/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/spatial/4-5/003/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/spatial/4-5/003/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/spatial/4-5/003/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "spatial",
+    "imgnum": "6-7",
+    "idx": "001",
+    "sample_id": "00000249",
+    "score": 10.0,
+    "prompt": "From a fixed camera position, <image 1> is the back-right view, <image 2> is the right view, <image 3> is the front-right view, <image 4> is the left view, <image 5> is the back-left view, <image 6> is the front-left view. From above, the sequence Front -> Left -> Back -> Right follows a counter-clockwise order. Generate the front view.",
+    "input_images": [
+      "assets/gallery/case/spatial/6-7/001/input/input_1.jpg",
+      "assets/gallery/case/spatial/6-7/001/input/input_2.jpg",
+      "assets/gallery/case/spatial/6-7/001/input/input_3.jpg",
+      "assets/gallery/case/spatial/6-7/001/input/input_4.jpg",
+      "assets/gallery/case/spatial/6-7/001/input/input_5.jpg",
+      "assets/gallery/case/spatial/6-7/001/input/input_6.jpg"
+    ],
+    "gt_image": "assets/gallery/case/spatial/6-7/001/gt.jpg",
+    "outputs": {
+      "gpt": "assets/gallery/case/spatial/6-7/001/output/gpt.jpg",
+      "nano": "assets/gallery/case/spatial/6-7/001/output/nano.jpg",
+      "bagel": "assets/gallery/case/spatial/6-7/001/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/spatial/6-7/001/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/spatial/6-7/001/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/spatial/6-7/001/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/spatial/6-7/001/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/spatial/6-7/001/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/spatial/6-7/001/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/spatial/6-7/001/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/spatial/6-7/001/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/spatial/6-7/001/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "spatial",
+    "imgnum": "6-7",
+    "idx": "002",
+    "sample_id": "00000082",
+    "score": 9.4868,
+    "prompt": "For a fixed object, <image 1> is the back view, <image 2> is the right view, <image 3> is the front-right view, <image 4> is the top view, <image 5> is the bottom view, <image 6> is the left view, <image 7> is the back-left view. From above, the sequence Front -> Left -> Back -> Right follows a clockwise order. Generate the back-right view.",
+    "input_images": [
+      "assets/gallery/case/spatial/6-7/002/input/input_1.jpg",
+      "assets/gallery/case/spatial/6-7/002/input/input_2.jpg",
+      "assets/gallery/case/spatial/6-7/002/input/input_3.jpg",
+      "assets/gallery/case/spatial/6-7/002/input/input_4.jpg",
+      "assets/gallery/case/spatial/6-7/002/input/input_5.jpg",
+      "assets/gallery/case/spatial/6-7/002/input/input_6.jpg",
+      "assets/gallery/case/spatial/6-7/002/input/input_7.jpg"
+    ],
+    "gt_image": "assets/gallery/case/spatial/6-7/002/gt.jpg",
+    "outputs": {
+      "gpt": "assets/gallery/case/spatial/6-7/002/output/gpt.jpg",
+      "nano": "assets/gallery/case/spatial/6-7/002/output/nano.jpg",
+      "bagel": "assets/gallery/case/spatial/6-7/002/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/spatial/6-7/002/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/spatial/6-7/002/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/spatial/6-7/002/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/spatial/6-7/002/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/spatial/6-7/002/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/spatial/6-7/002/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/spatial/6-7/002/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/spatial/6-7/002/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/spatial/6-7/002/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "spatial",
+    "imgnum": "6-7",
+    "idx": "003",
+    "sample_id": "00000237",
+    "score": 9.4868,
+    "prompt": "From a fixed camera position, <image 1> is the bottom view, <image 2> is the right view, <image 3> is the back view, <image 4> is the front-right view, <image 5> is the back-left view, <image 6> is the top view, <image 7> is the front view. From above, the sequence Front -> Left -> Back -> Right follows a counter-clockwise order. Generate the back-right view.",
+    "input_images": [
+      "assets/gallery/case/spatial/6-7/003/input/input_1.jpg",
+      "assets/gallery/case/spatial/6-7/003/input/input_2.jpg",
+      "assets/gallery/case/spatial/6-7/003/input/input_3.jpg",
+      "assets/gallery/case/spatial/6-7/003/input/input_4.jpg",
+      "assets/gallery/case/spatial/6-7/003/input/input_5.jpg",
+      "assets/gallery/case/spatial/6-7/003/input/input_6.jpg",
+      "assets/gallery/case/spatial/6-7/003/input/input_7.jpg"
+    ],
+    "gt_image": "assets/gallery/case/spatial/6-7/003/gt.jpg",
+    "outputs": {
+      "gpt": "assets/gallery/case/spatial/6-7/003/output/gpt.jpg",
+      "nano": "assets/gallery/case/spatial/6-7/003/output/nano.jpg",
+      "bagel": "assets/gallery/case/spatial/6-7/003/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/spatial/6-7/003/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/spatial/6-7/003/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/spatial/6-7/003/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/spatial/6-7/003/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/spatial/6-7/003/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/spatial/6-7/003/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/spatial/6-7/003/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/spatial/6-7/003/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/spatial/6-7/003/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "spatial",
+    "imgnum": ">=8",
+    "idx": "001",
+    "sample_id": "00000061",
+    "score": 9.4868,
+    "prompt": "For a fixed object, <image 1> is the back-right view, <image 2> is the front-right view, <image 3> is the back view, <image 4> is the left view, <image 5> is the front-left view, <image 6> is the top view, <image 7> is the bottom view, <image 8> is the back-left view. From above, the sequence Front -> Left -> Back -> Right follows a clockwise order. Generate the right view.",
+    "input_images": [
+      "assets/gallery/case/spatial/>=8/001/input/input_1.jpg",
+      "assets/gallery/case/spatial/>=8/001/input/input_2.jpg",
+      "assets/gallery/case/spatial/>=8/001/input/input_3.jpg",
+      "assets/gallery/case/spatial/>=8/001/input/input_4.jpg",
+      "assets/gallery/case/spatial/>=8/001/input/input_5.jpg",
+      "assets/gallery/case/spatial/>=8/001/input/input_6.jpg",
+      "assets/gallery/case/spatial/>=8/001/input/input_7.jpg",
+      "assets/gallery/case/spatial/>=8/001/input/input_8.jpg"
+    ],
+    "gt_image": "assets/gallery/case/spatial/>=8/001/gt.jpg",
+    "outputs": {
+      "gpt": "assets/gallery/case/spatial/>=8/001/output/gpt.jpg",
+      "nano": "assets/gallery/case/spatial/>=8/001/output/nano.jpg",
+      "bagel": "assets/gallery/case/spatial/>=8/001/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/spatial/>=8/001/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/spatial/>=8/001/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/spatial/>=8/001/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/spatial/>=8/001/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/spatial/>=8/001/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/spatial/>=8/001/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/spatial/>=8/001/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/spatial/>=8/001/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/spatial/>=8/001/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "spatial",
+    "imgnum": ">=8",
+    "idx": "002",
+    "sample_id": "00000103",
+    "score": 9.4868,
+    "prompt": "From a fixed camera position, <image 1> is the front view, <image 2> is the back view, <image 3> is the front-right view, <image 4> is the left view, <image 5> is the bottom view, <image 6> is the front-left view, <image 7> is the back-right view, <image 8> is the top view, <image 9> is the back-left view. From above, the sequence Front -> Left -> Back -> Right follows a counter-clockwise order. Generate the right view.",
+    "input_images": [
+      "assets/gallery/case/spatial/>=8/002/input/input_1.jpg",
+      "assets/gallery/case/spatial/>=8/002/input/input_2.jpg",
+      "assets/gallery/case/spatial/>=8/002/input/input_3.jpg",
+      "assets/gallery/case/spatial/>=8/002/input/input_4.jpg",
+      "assets/gallery/case/spatial/>=8/002/input/input_5.jpg",
+      "assets/gallery/case/spatial/>=8/002/input/input_6.jpg",
+      "assets/gallery/case/spatial/>=8/002/input/input_7.jpg",
+      "assets/gallery/case/spatial/>=8/002/input/input_8.jpg",
+      "assets/gallery/case/spatial/>=8/002/input/input_9.jpg"
+    ],
+    "gt_image": "assets/gallery/case/spatial/>=8/002/gt.jpg",
+    "outputs": {
+      "gpt": "assets/gallery/case/spatial/>=8/002/output/gpt.jpg",
+      "nano": "assets/gallery/case/spatial/>=8/002/output/nano.jpg",
+      "bagel": "assets/gallery/case/spatial/>=8/002/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/spatial/>=8/002/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/spatial/>=8/002/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/spatial/>=8/002/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/spatial/>=8/002/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/spatial/>=8/002/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/spatial/>=8/002/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/spatial/>=8/002/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/spatial/>=8/002/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/spatial/>=8/002/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "spatial",
+    "imgnum": ">=8",
+    "idx": "003",
+    "sample_id": "00000136",
+    "score": 9.4868,
+    "prompt": "From a fixed camera position, <image 1> is the top view, <image 2> is the back-left view, <image 3> is the right view, <image 4> is the back view, <image 5> is the front-right view, <image 6> is the bottom view, <image 7> is the front view, <image 8> is the back-right view, <image 9> is the front-left view. From above, the sequence Front -> Left -> Back -> Right follows a counter-clockwise order. Generate the left view.",
+    "input_images": [
+      "assets/gallery/case/spatial/>=8/003/input/input_1.jpg",
+      "assets/gallery/case/spatial/>=8/003/input/input_2.jpg",
+      "assets/gallery/case/spatial/>=8/003/input/input_3.jpg",
+      "assets/gallery/case/spatial/>=8/003/input/input_4.jpg",
+      "assets/gallery/case/spatial/>=8/003/input/input_5.jpg",
+      "assets/gallery/case/spatial/>=8/003/input/input_6.jpg",
+      "assets/gallery/case/spatial/>=8/003/input/input_7.jpg",
+      "assets/gallery/case/spatial/>=8/003/input/input_8.jpg",
+      "assets/gallery/case/spatial/>=8/003/input/input_9.jpg"
+    ],
+    "gt_image": "assets/gallery/case/spatial/>=8/003/gt.jpg",
+    "outputs": {
+      "gpt": "assets/gallery/case/spatial/>=8/003/output/gpt.jpg",
+      "nano": "assets/gallery/case/spatial/>=8/003/output/nano.jpg",
+      "bagel": "assets/gallery/case/spatial/>=8/003/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/spatial/>=8/003/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/spatial/>=8/003/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/spatial/>=8/003/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/spatial/>=8/003/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/spatial/>=8/003/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/spatial/>=8/003/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/spatial/>=8/003/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/spatial/>=8/003/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/spatial/>=8/003/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "temporal",
+    "imgnum": "1-3",
+    "idx": "001",
+    "sample_id": "00000032",
+    "score": 10.0,
+    "prompt": "The video sequence <image 1> depicts A hand holds a miniature rolling pin with red handles, then sets it down to pick up a small metal bucket among other tiny objects on a wooden floor. Generate the next key frame for this video.",
+    "input_images": [
+      "assets/gallery/case/temporal/1-3/001/input/input_1.jpg"
+    ],
+    "gt_image": "assets/gallery/case/temporal/1-3/001/gt.jpg",
+    "outputs": {
+      "gpt": "assets/gallery/case/temporal/1-3/001/output/gpt.jpg",
+      "nano": "assets/gallery/case/temporal/1-3/001/output/nano.jpg",
+      "bagel": "assets/gallery/case/temporal/1-3/001/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/temporal/1-3/001/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/temporal/1-3/001/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/temporal/1-3/001/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/temporal/1-3/001/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/temporal/1-3/001/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/temporal/1-3/001/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/temporal/1-3/001/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/temporal/1-3/001/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/temporal/1-3/001/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "temporal",
+    "imgnum": "1-3",
+    "idx": "002",
+    "sample_id": "00000038",
+    "score": 10.0,
+    "prompt": "The video sequence <image 1> depicts A man holds a small evergreen branch and gestures toward a matching bush while speaking outdoors. Generate the next key frame for this video.",
+    "input_images": [
+      "assets/gallery/case/temporal/1-3/002/input/input_1.jpg"
+    ],
+    "gt_image": "assets/gallery/case/temporal/1-3/002/gt.jpg",
+    "outputs": {
+      "gpt": "assets/gallery/case/temporal/1-3/002/output/gpt.jpg",
+      "nano": "assets/gallery/case/temporal/1-3/002/output/nano.jpg",
+      "bagel": "assets/gallery/case/temporal/1-3/002/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/temporal/1-3/002/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/temporal/1-3/002/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/temporal/1-3/002/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/temporal/1-3/002/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/temporal/1-3/002/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/temporal/1-3/002/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/temporal/1-3/002/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/temporal/1-3/002/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/temporal/1-3/002/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "temporal",
+    "imgnum": "1-3",
+    "idx": "003",
+    "sample_id": "00000041",
+    "score": 10.0,
+    "prompt": "The video sequence <image 1> depicts A hand wipes a Ford emblem on a car, causing it to transform into an emblem that reads Fast. Generate the next key frame for this video.",
+    "input_images": [
+      "assets/gallery/case/temporal/1-3/003/input/input_1.jpg"
+    ],
+    "gt_image": "assets/gallery/case/temporal/1-3/003/gt.jpg",
+    "outputs": {
+      "gpt": "assets/gallery/case/temporal/1-3/003/output/gpt.jpg",
+      "nano": "assets/gallery/case/temporal/1-3/003/output/nano.jpg",
+      "bagel": "assets/gallery/case/temporal/1-3/003/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/temporal/1-3/003/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/temporal/1-3/003/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/temporal/1-3/003/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/temporal/1-3/003/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/temporal/1-3/003/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/temporal/1-3/003/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/temporal/1-3/003/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/temporal/1-3/003/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/temporal/1-3/003/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "temporal",
+    "imgnum": "4-5",
+    "idx": "001",
+    "sample_id": "00000009",
+    "score": 10.0,
+    "prompt": "The video sequence <image 1>, <image 2>, <image 3>, <image 4> depicts A snapping turtle swims across an aquarium toward a crayfish. The two creatures face off near a rock formation before the turtle lunges and attacks the crayfish. Generate the next key frame for this video.",
+    "input_images": [
+      "assets/gallery/case/temporal/4-5/001/input/input_1.jpg",
+      "assets/gallery/case/temporal/4-5/001/input/input_2.jpg",
+      "assets/gallery/case/temporal/4-5/001/input/input_3.jpg",
+      "assets/gallery/case/temporal/4-5/001/input/input_4.jpg"
+    ],
+    "gt_image": "assets/gallery/case/temporal/4-5/001/gt.jpg",
+    "outputs": {
+      "gpt": "assets/gallery/case/temporal/4-5/001/output/gpt.jpg",
+      "nano": "assets/gallery/case/temporal/4-5/001/output/nano.jpg",
+      "bagel": "assets/gallery/case/temporal/4-5/001/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/temporal/4-5/001/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/temporal/4-5/001/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/temporal/4-5/001/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/temporal/4-5/001/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/temporal/4-5/001/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/temporal/4-5/001/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/temporal/4-5/001/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/temporal/4-5/001/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/temporal/4-5/001/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "temporal",
+    "imgnum": "4-5",
+    "idx": "002",
+    "sample_id": "00000027",
+    "score": 10.0,
+    "prompt": "The video sequence <image 1>, <image 2>, <image 3>, <image 4>, <image 5> depicts A chef presents different cookware in a professional kitchen, featuring close-ups of specific pots and wide shots of her gesturing toward various pans. The sequence shows her explaining the features of the kitchen equipment to the audience. Generate the next key frame for this video.",
+    "input_images": [
+      "assets/gallery/case/temporal/4-5/002/input/input_1.jpg",
+      "assets/gallery/case/temporal/4-5/002/input/input_2.jpg",
+      "assets/gallery/case/temporal/4-5/002/input/input_3.jpg",
+      "assets/gallery/case/temporal/4-5/002/input/input_4.jpg",
+      "assets/gallery/case/temporal/4-5/002/input/input_5.jpg"
+    ],
+    "gt_image": "assets/gallery/case/temporal/4-5/002/gt.jpg",
+    "outputs": {
+      "gpt": "assets/gallery/case/temporal/4-5/002/output/gpt.jpg",
+      "nano": "assets/gallery/case/temporal/4-5/002/output/nano.jpg",
+      "bagel": "assets/gallery/case/temporal/4-5/002/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/temporal/4-5/002/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/temporal/4-5/002/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/temporal/4-5/002/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/temporal/4-5/002/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/temporal/4-5/002/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/temporal/4-5/002/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/temporal/4-5/002/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/temporal/4-5/002/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/temporal/4-5/002/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "temporal",
+    "imgnum": "4-5",
+    "idx": "003",
+    "sample_id": "00000035",
+    "score": 10.0,
+    "prompt": "The video sequence <image 1>, <image 2>, <image 3>, <image 4> depicts Hands manipulate various plush toys, including a penguin, toucan, and a green fuzzy creature. The scene transitions from an outdoor stone walkway to an indoor window area, where the toys are moved and posed as if interacting with the environment. Generate the next key frame for this video.",
+    "input_images": [
+      "assets/gallery/case/temporal/4-5/003/input/input_1.jpg",
+      "assets/gallery/case/temporal/4-5/003/input/input_2.jpg",
+      "assets/gallery/case/temporal/4-5/003/input/input_3.jpg",
+      "assets/gallery/case/temporal/4-5/003/input/input_4.jpg"
+    ],
+    "gt_image": "assets/gallery/case/temporal/4-5/003/gt.jpg",
+    "outputs": {
+      "gpt": "assets/gallery/case/temporal/4-5/003/output/gpt.jpg",
+      "nano": "assets/gallery/case/temporal/4-5/003/output/nano.jpg",
+      "bagel": "assets/gallery/case/temporal/4-5/003/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/temporal/4-5/003/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/temporal/4-5/003/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/temporal/4-5/003/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/temporal/4-5/003/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/temporal/4-5/003/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/temporal/4-5/003/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/temporal/4-5/003/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/temporal/4-5/003/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/temporal/4-5/003/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "temporal",
+    "imgnum": "6-7",
+    "idx": "001",
+    "sample_id": "00000024",
+    "score": 10.0,
+    "prompt": "The video sequence <image 1>, <image 2>, <image 3>, <image 4>, <image 5>, <image 6>, <image 7> depicts A doll transitions from lying on a couch to sitting up and standing with her arms raised in a miniature room. She poses for the camera, holds a towel, and is briefly joined by another doll in a close-up shot. Generate the next key frame for this video.",
+    "input_images": [
+      "assets/gallery/case/temporal/6-7/001/input/input_1.jpg",
+      "assets/gallery/case/temporal/6-7/001/input/input_2.jpg",
+      "assets/gallery/case/temporal/6-7/001/input/input_3.jpg",
+      "assets/gallery/case/temporal/6-7/001/input/input_4.jpg",
+      "assets/gallery/case/temporal/6-7/001/input/input_5.jpg",
+      "assets/gallery/case/temporal/6-7/001/input/input_6.jpg",
+      "assets/gallery/case/temporal/6-7/001/input/input_7.jpg"
+    ],
+    "gt_image": "assets/gallery/case/temporal/6-7/001/gt.jpg",
+    "outputs": {
+      "gpt": "assets/gallery/case/temporal/6-7/001/output/gpt.jpg",
+      "nano": "assets/gallery/case/temporal/6-7/001/output/nano.jpg",
+      "bagel": "assets/gallery/case/temporal/6-7/001/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/temporal/6-7/001/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/temporal/6-7/001/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/temporal/6-7/001/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/temporal/6-7/001/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/temporal/6-7/001/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/temporal/6-7/001/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/temporal/6-7/001/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/temporal/6-7/001/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/temporal/6-7/001/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "temporal",
+    "imgnum": "6-7",
+    "idx": "002",
+    "sample_id": "00000055",
+    "score": 10.0,
+    "prompt": "The video sequence <image 1>, <image 2>, <image 3>, <image 4>, <image 5>, <image 6>, <image 7> depicts A man and a woman sit together and engage in a lively conversation. The sequence alternates between wide shots of both and close-ups of their individual reactions, capturing gestures, facial expressions, and laughter as they talk to the camera. Generate the next key frame for this video.",
+    "input_images": [
+      "assets/gallery/case/temporal/6-7/002/input/input_1.jpg",
+      "assets/gallery/case/temporal/6-7/002/input/input_2.jpg",
+      "assets/gallery/case/temporal/6-7/002/input/input_3.jpg",
+      "assets/gallery/case/temporal/6-7/002/input/input_4.jpg",
+      "assets/gallery/case/temporal/6-7/002/input/input_5.jpg",
+      "assets/gallery/case/temporal/6-7/002/input/input_6.jpg",
+      "assets/gallery/case/temporal/6-7/002/input/input_7.jpg"
+    ],
+    "gt_image": "assets/gallery/case/temporal/6-7/002/gt.jpg",
+    "outputs": {
+      "gpt": "assets/gallery/case/temporal/6-7/002/output/gpt.jpg",
+      "nano": "assets/gallery/case/temporal/6-7/002/output/nano.jpg",
+      "bagel": "assets/gallery/case/temporal/6-7/002/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/temporal/6-7/002/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/temporal/6-7/002/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/temporal/6-7/002/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/temporal/6-7/002/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/temporal/6-7/002/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/temporal/6-7/002/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/temporal/6-7/002/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/temporal/6-7/002/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/temporal/6-7/002/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "temporal",
+    "imgnum": "6-7",
+    "idx": "003",
+    "sample_id": "00000106",
+    "score": 10.0,
+    "prompt": "The video sequence <image 1>, <image 2>, <image 3>, <image 4>, <image 5>, <image 6> depicts A chef trusses a raw chicken with kitchen twine on a cutting board before applying a dry spice rub to its surface. Generate the next key frame for this video.",
+    "input_images": [
+      "assets/gallery/case/temporal/6-7/003/input/input_1.jpg",
+      "assets/gallery/case/temporal/6-7/003/input/input_2.jpg",
+      "assets/gallery/case/temporal/6-7/003/input/input_3.jpg",
+      "assets/gallery/case/temporal/6-7/003/input/input_4.jpg",
+      "assets/gallery/case/temporal/6-7/003/input/input_5.jpg",
+      "assets/gallery/case/temporal/6-7/003/input/input_6.jpg"
+    ],
+    "gt_image": "assets/gallery/case/temporal/6-7/003/gt.jpg",
+    "outputs": {
+      "gpt": "assets/gallery/case/temporal/6-7/003/output/gpt.jpg",
+      "nano": "assets/gallery/case/temporal/6-7/003/output/nano.jpg",
+      "bagel": "assets/gallery/case/temporal/6-7/003/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/temporal/6-7/003/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/temporal/6-7/003/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/temporal/6-7/003/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/temporal/6-7/003/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/temporal/6-7/003/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/temporal/6-7/003/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/temporal/6-7/003/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/temporal/6-7/003/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/temporal/6-7/003/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "temporal",
+    "imgnum": ">=8",
+    "idx": "001",
+    "sample_id": "00000113",
+    "score": 10.0,
+    "prompt": "The video sequence <image 1>, <image 2>, <image 3>, <image 4>, <image 5>, <image 6>, <image 7>, <image 8>, <image 9>, <image 10> depicts A woman with red hair delivers a presentation on a TEDx stage. She holds notes, gestures frequently, and speaks to an audience, with the camera alternating between wide shots of the auditorium and close-up views of her expressions and hand movements. Generate the next key frame for this video.",
+    "input_images": [
+      "assets/gallery/case/temporal/>=8/001/input/input_1.jpg",
+      "assets/gallery/case/temporal/>=8/001/input/input_2.jpg",
+      "assets/gallery/case/temporal/>=8/001/input/input_3.jpg",
+      "assets/gallery/case/temporal/>=8/001/input/input_4.jpg",
+      "assets/gallery/case/temporal/>=8/001/input/input_5.jpg",
+      "assets/gallery/case/temporal/>=8/001/input/input_6.jpg",
+      "assets/gallery/case/temporal/>=8/001/input/input_7.jpg",
+      "assets/gallery/case/temporal/>=8/001/input/input_8.jpg",
+      "assets/gallery/case/temporal/>=8/001/input/input_9.jpg",
+      "assets/gallery/case/temporal/>=8/001/input/input_10.jpg"
+    ],
+    "gt_image": "assets/gallery/case/temporal/>=8/001/gt.jpg",
+    "outputs": {
+      "gpt": "assets/gallery/case/temporal/>=8/001/output/gpt.jpg",
+      "nano": "assets/gallery/case/temporal/>=8/001/output/nano.jpg",
+      "bagel": "assets/gallery/case/temporal/>=8/001/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/temporal/>=8/001/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/temporal/>=8/001/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/temporal/>=8/001/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/temporal/>=8/001/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/temporal/>=8/001/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/temporal/>=8/001/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/temporal/>=8/001/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/temporal/>=8/001/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/temporal/>=8/001/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "temporal",
+    "imgnum": ">=8",
+    "idx": "002",
+    "sample_id": "00000135",
+    "score": 10.0,
+    "prompt": "The video sequence <image 1>, <image 2>, <image 3>, <image 4>, <image 5>, <image 6>, <image 7>, <image 8> depicts Cedric the Entertainer talks and gestures animatedly during an interview with Conan O'Brien. The two share laughs and engage in a lively conversation on a talk show set, with camera shots alternating between medium views and close-ups of Cedric's expressive reactions. Generate the next key frame for this video.",
+    "input_images": [
+      "assets/gallery/case/temporal/>=8/002/input/input_1.jpg",
+      "assets/gallery/case/temporal/>=8/002/input/input_2.jpg",
+      "assets/gallery/case/temporal/>=8/002/input/input_3.jpg",
+      "assets/gallery/case/temporal/>=8/002/input/input_4.jpg",
+      "assets/gallery/case/temporal/>=8/002/input/input_5.jpg",
+      "assets/gallery/case/temporal/>=8/002/input/input_6.jpg",
+      "assets/gallery/case/temporal/>=8/002/input/input_7.jpg",
+      "assets/gallery/case/temporal/>=8/002/input/input_8.jpg"
+    ],
+    "gt_image": "assets/gallery/case/temporal/>=8/002/gt.jpg",
+    "outputs": {
+      "gpt": "assets/gallery/case/temporal/>=8/002/output/gpt.jpg",
+      "nano": "assets/gallery/case/temporal/>=8/002/output/nano.jpg",
+      "bagel": "assets/gallery/case/temporal/>=8/002/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/temporal/>=8/002/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/temporal/>=8/002/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/temporal/>=8/002/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/temporal/>=8/002/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/temporal/>=8/002/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/temporal/>=8/002/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/temporal/>=8/002/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/temporal/>=8/002/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/temporal/>=8/002/output/qwen_macro.jpg"
+    }
+  },
+  {
+    "task": "temporal",
+    "imgnum": ">=8",
+    "idx": "003",
+    "sample_id": "00000139",
+    "score": 10.0,
+    "prompt": "The video sequence <image 1>, <image 2>, <image 3>, <image 4>, <image 5>, <image 6>, <image 7>, <image 8>, <image 9> depicts A man and a woman stand close together, looking at a smartphone and talking. As their conversation progresses, they exchange intimate looks and smiles before finally leaning in to kiss each other. Generate the next key frame for this video.",
+    "input_images": [
+      "assets/gallery/case/temporal/>=8/003/input/input_1.jpg",
+      "assets/gallery/case/temporal/>=8/003/input/input_2.jpg",
+      "assets/gallery/case/temporal/>=8/003/input/input_3.jpg",
+      "assets/gallery/case/temporal/>=8/003/input/input_4.jpg",
+      "assets/gallery/case/temporal/>=8/003/input/input_5.jpg",
+      "assets/gallery/case/temporal/>=8/003/input/input_6.jpg",
+      "assets/gallery/case/temporal/>=8/003/input/input_7.jpg",
+      "assets/gallery/case/temporal/>=8/003/input/input_8.jpg",
+      "assets/gallery/case/temporal/>=8/003/input/input_9.jpg"
+    ],
+    "gt_image": "assets/gallery/case/temporal/>=8/003/gt.jpg",
+    "outputs": {
+      "nano": "assets/gallery/case/temporal/>=8/003/output/nano.jpg",
+      "bagel": "assets/gallery/case/temporal/>=8/003/output/bagel.jpg",
+      "bagel_echo4o": "assets/gallery/case/temporal/>=8/003/output/bagel_echo4o.jpg",
+      "bagel_mico": "assets/gallery/case/temporal/>=8/003/output/bagel_mico.jpg",
+      "bagel_macro": "assets/gallery/case/temporal/>=8/003/output/bagel_macro.jpg",
+      "omnigen": "assets/gallery/case/temporal/>=8/003/output/omnigen.jpg",
+      "omnigen_mico": "assets/gallery/case/temporal/>=8/003/output/omnigen_mico.jpg",
+      "omnigen_opensub": "assets/gallery/case/temporal/>=8/003/output/omnigen_opensub.jpg",
+      "omnigen_macro": "assets/gallery/case/temporal/>=8/003/output/omnigen_macro.jpg",
+      "qwen": "assets/gallery/case/temporal/>=8/003/output/qwen.jpg",
+      "qwen_macro": "assets/gallery/case/temporal/>=8/003/output/qwen_macro.jpg"
+    }
+  }
+]

@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MACRO: Advancing Multi-Reference Image Generation with Structured Long-Context Data</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+<!-- ===== NAV TAB BAR ===== -->
+<nav class="navbar">
+  <div class="navbar-inner">
+    <span class="navbar-brand">MACRO</span>
+    <a href="index.html" class="nav-tab active">🏠 Home</a>
+    <a href="data_gallery.html" class="nav-tab">🖼 Data Gallery</a>
+    <a href="case_gallery.html" class="nav-tab">🔬 Case Gallery</a>
+  </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<header class="hero">
+  <div class="container">
+    <h1 class="paper-title">
+      <em>MACRO</em>:<br /> Advancing Multi-Reference Image Generation<br />with Structured Long-Context Data
+    </h1>
+    <p class="authors">
+      Zhekai Chen<sup>1,2</sup>, Yuqing Wang<sup>1</sup>, Manyuan Zhang<sup>2</sup>, Xihui Liu<sup>1</sup>
+    </p>
+    <p class="affiliations">
+      <sup>1</sup>HKU MMLab &nbsp;|&nbsp; <sup>2</sup>Meituan
+    </p>
+    <div class="link-buttons">
+      <a href="#" class="btn btn-primary">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="1"/></svg>
+        arXiv
+      </a>
+      <a href="#" class="btn btn-dark">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+        Code
+      </a>
+      <a href="https://huggingface.co/datasets/Azily/Macro-Dataset" class="btn btn-outline">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+        Dataset
+      </a>
+      <a href="https://huggingface.co/Azily/Macro-Bagel" class="btn btn-amber">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg>
+        Model
+      </a>
+      <a href="#bibtex" class="btn btn-outline">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14,2 14,8 20,8"/></svg>
+        BibTeX
+      </a>
+    </div>
+  </div>
+</header>
+
+<!-- ===== ABSTRACT ===== -->
+<section id="abstract">
+  <div class="container">
+    <h2 class="section-title"><span>Abstract</span></h2>
+    <div class="abstract-box">
+      <p>
+        Generating images conditioned on multiple visual references is critical for real-world applications such as multi-subject composition, narrative illustration, and novel view synthesis, yet current models suffer from severe performance degradation as the number of input references grows. We identify the root cause as a fundamental data bottleneck: existing datasets are dominated by single- or few-reference pairs and lack the structured, long-context supervision needed to learn dense inter-reference dependencies. To address this, we introduce <strong>MacroData</strong>, a large-scale dataset of <strong>400K</strong> samples, each containing up to <strong>10</strong> reference images, systematically organized across four complementary dimensions—Customization, Illustration, Spatial reasoning, and Temporal dynamics—to provide comprehensive coverage of the multi-reference generation space. Recognizing the concurrent absence of standardized evaluation protocols, we further propose <strong>MacroBench</strong>, a benchmark of 4,000 samples that assesses generative coherence across graded task dimensions and input scales. Extensive experiments show that fine-tuning on MacroData yields substantial improvements in multi-reference generation, and ablation studies further reveal synergistic benefits of cross-task co-training and effective strategies for handling long-context complexity. The dataset and benchmark will be publicly released.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== DATA SCROLL (manual carousel) ===== -->
+<section id="data-overview" style="background: var(--surface-2);">
+  <div class="container">
+    <h2 class="section-title"><span>Dataset Overview</span></h2>
+
+    <!-- Manual slide carousel -->
+    <div class="carousel-header">
+      <h3>Data Samples</h3>
+      <div style="display:flex;gap:10px;align-items:center;">
+        <button class="mc-autoplay-btn" id="data-autoplay-btn" onclick="mcToggleAutoplay('data-carousel', this)">⏸ Pause</button>
+        <a href="data_gallery.html" class="btn btn-outline" style="font-size:0.82rem;padding:6px 14px;">
+          Browse Data Gallery →
+        </a>
+      </div>
+    </div>
+
+    <div class="manual-carousel" id="data-carousel">
+      <button class="mc-prev" onclick="mcPrev('data-carousel')" aria-label="Previous">&#8249;</button>
+      <div class="mc-viewport">
+        <div class="mc-track" id="data-mc-track">
+          <div class="mc-slide">
+            <img src="assets/main/customization_data.jpg" alt="Customization Data" loading="lazy" onclick="openLightbox(this.src, this.alt)" />
+            <div class="mc-caption">
+              <span class="tag tag-customization">Customization</span>
+              Generating compositions conditioned on multiple reference images.
+            </div>
+          </div>
+          <div class="mc-slide">
+            <img src="assets/main/illustration_data.jpg" alt="Illustration Data" loading="lazy" onclick="openLightbox(this.src, this.alt)" />
+            <div class="mc-caption">
+              <span class="tag tag-illustration">Illustration</span>
+              Producing illustrative images based on multimodal context.
+            </div>
+          </div>
+          <div class="mc-slide">
+            <img src="assets/main/spatial_data.jpg" alt="Spatial Data" loading="lazy" onclick="openLightbox(this.src, this.alt)" />
+            <div class="mc-caption">
+              <span class="tag tag-spatial">Spatial</span>
+              Predicting novel view images given multiple views, specifically including outside-in objects and inside-out scenes.
+            </div>
+          </div>
+          <div class="mc-slide">
+            <img src="assets/main/temporal_data.jpg" alt="Temporal Data" loading="lazy" onclick="openLightbox(this.src, this.alt)" />
+            <div class="mc-caption">
+              <span class="tag tag-temporal">Temporal</span>
+              Forecasting future frames based on historical sequence.
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="mc-next" onclick="mcNext('data-carousel')" aria-label="Next">&#8250;</button>
+      <div class="mc-dots" id="data-mc-dots"></div>
+    </div>
+
+    <!-- Statistics – full width -->
+    <div class="stats-block" style="margin-top: 56px;">
+      <img src="assets/main/statistics.jpg" alt="Dataset Statistics" class="stats-img-full" onclick="openLightbox(this.src, this.alt)" />
+      <div class="stats-desc-full">
+        <h3>Data Statistics</h3>
+        <p>
+          MacroData comprises <strong>400,000 high-quality samples</strong> spanning four tasks, curated from diverse real-world sources. The dataset supports up to 10 inputs per sample with an average of 5.44 references. It is structured across four reference image count categories — 1–3, 4–5, 6–7, and 8–10 images — enabling fine-grained evaluation of models' ability to leverage increasing amounts of visual context. Each task is composed of 100k samples, split into different numbers of reference images.
+        </p>
+        <br />
+        <p>
+          Each task is independently sourced and verified. <span class="tag tag-customization" style="vertical-align:middle;">Customization</span> focuses on generating compositions conditioned on multiple reference images, covering diverse human and object subjects with varying backgrounds.
+          <span class="tag tag-illustration" style="vertical-align:middle;">Illustration</span> aims at producing illustrative images based on multimodal context, featuring diverse topics derived from interleaved contexts.
+          <span class="tag tag-spatial" style="vertical-align:middle;">Spatial</span> requires predicting novel view images given multiple views, leveraging structured multi-view captures of indoor scenes, outdoor environments, and isolated objects.
+          <span class="tag tag-temporal" style="vertical-align:middle;">Temporal</span> involves forecasting future frames based on historical sequence, with data extracted from video sequences with dense temporal correspondence. Rigorous LLM-based quality filtering ensures that each retained sample satisfies task-specific consistency and instruction-following criteria, resulting in a benchmark with high signal-to-noise ratio suitable for both training and evaluation.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PIPELINE ===== -->
+<section id="pipeline">
+  <div class="container">
+    <h2 class="section-title"><span>Data Construction Pipelines</span></h2>
+
+    <div class="pipeline-tabs">
+      <button class="pipeline-tab active" onclick="switchPipeline('customization', this)">Customization</button>
+      <button class="pipeline-tab" onclick="switchPipeline('illustration', this)">Illustration</button>
+      <button class="pipeline-tab" onclick="switchPipeline('spatial', this)">Spatial</button>
+      <button class="pipeline-tab" onclick="switchPipeline('temporal', this)">Temporal</button>
+    </div>
+
+    <!-- Customization Pipeline (vertical: image top, text bottom) -->
+    <div class="pipeline-panel pipeline-vertical active" id="pipeline-customization">
+      <img src="assets/main/customization_pipeline.jpg" alt="Customization Pipeline" onclick="openLightbox(this.src, this.alt)" />
+      <div class="pipeline-desc">
+        <strong><span class="tag tag-customization">Customization</span> &nbsp; Data Construction</strong>
+        We aggregate source metadata from OpenSubject for human, MVImgNet for object, DL3DV for scene, Vibrant Clothes Rental Dataset for cloth and WikiArt for style. Each undergoes tailored preprocessing: we uniformly sample video keyframes for scenes, filter out clothing images containing faces via VLMs to prevent identity leakage, and categorize styles using tags to guarantee diversity. Finally, aesthetic scoring is applied to select high-quality images. We sample metadata across these categories to build diverse composition sets, using LLMs to evaluate and iteratively resample any logically or spatially unreasonable combinations. The valid sets are then synthesized into target images. To ensure data fidelity, we perform a VLM-based bidirectional assessment, filtering out samples where input images are not faithfully reflected in the output or where text prompts are semantically inconsistent with the generated images.
+      </div>
+    </div>
+
+    <!-- Illustration Pipeline -->
+    <div class="pipeline-panel" id="pipeline-illustration">
+      <img src="assets/main/illustration_pipeline.jpg" alt="Illustration Pipeline" onclick="openLightbox(this.src, this.alt)" />
+      <div class="pipeline-desc">
+        <strong><span class="tag tag-illustration">Illustration</span> &nbsp; Data Construction</strong>
+        We leverage large-scale interleaved image-text sequences from web crawls of OmniCorpus-CC-210M as raw source material. Since such data is inherently noisy, we employ VLMs to identify "anchor images" that exhibit high semantic relevance to both the accompanying text and preceding images. These anchors are designated as generation targets, with the preceding context serving as input conditions. Since the preceding contexts are often noisy and textually verbose, we employ strong VLMs to regenerate each sequence. The VLM re-evaluates semantic relevance, discards images inconsistent with the narrative flow, and synthesizes a concise, coherent textual context. Each reorganized sample is then assigned a quality score, and low-scoring samples are filtered out to finalize the Illustration dataset.
+      </div>
+    </div>
+
+    <!-- Spatial Pipeline -->
+    <div class="pipeline-panel" id="pipeline-spatial">
+      <img src="assets/main/spatial_pipeline.jpg" alt="Spatial Pipeline" onclick="openLightbox(this.src, this.alt)" />
+      <div class="pipeline-desc">
+        <strong><span class="tag tag-spatial">Spatial</span> &nbsp; Data Construction</strong>
+        We construct this subtask from multi-view 3D object renderings data from G-buffer Objaverse dataset. The outside-in setup focuses on capturing a central object from surrounding external viewpoints. To bridge the domain gap with real imagery, we filter out low-quality samples based on color saturation and brightness in HSV space. From a set of canonical views, we designate one as the target and randomly sample diverse input views from the remainder, strictly ensuring visual overlap for physical plausibility. For inside-out scenes, which capture the surrounding environment by looking outward from a central internal point, we start from panoramic images of DIT360, Pano360, and Polyhaven, filtering out non-standard formats and categorizing the rest into indoor and outdoor scenes using VLMs. We define canonical viewing directions from the panorama's center, designate a target view, and sample input views from the remaining directions, ensuring adequate spatial overlap with the target.
+      </div>
+    </div>
+
+    <!-- Temporal Pipeline (vertical: image top, text bottom) -->
+    <div class="pipeline-panel pipeline-vertical" id="pipeline-temporal">
+      <img src="assets/main/temporal_pipeline.jpg" alt="Temporal Pipeline" onclick="openLightbox(this.src, this.alt)" />
+      <div class="pipeline-desc">
+        <strong><span class="tag tag-temporal">Temporal</span> &nbsp; Data Construction</strong>
+        To mitigate redundancy in raw video content from OmniCorpus-YT, we apply shot boundary detection to segment videos into semantically distinct clips and extract the central frame of each clip as a representative keyframe, effectively compressing temporal information while preserving key visual transitions. We group keyframes into coherent sequences within scene boundaries identified via DINOv2 visual feature similarity thresholds, ensuring smooth transitions. A VLM is then applied to generate a descriptive summary and a quality score for each sequence, and low-scoring samples are discarded. The final frame of each valid sequence is designated as the generation target, completing the Temporal dataset.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== EXPERIMENTS ===== -->
+<section id="experiments" style="background: var(--surface-2);">
+  <div class="container">
+    <h2 class="section-title"><span>Experimental Results</span></h2>
+
+    <!-- Main Table as image -->
+    <div class="maintab-wrap" style="margin-bottom: 48px;">
+      <img src="assets/main/maintab.png" alt="Main Results Table" class="maintab-img" onclick="openLightbox(this.src, this.alt)" />
+    </div>
+
+    <!-- Case Scroll Carousel (manual) -->
+    <div class="carousel-header">
+      <h3>Qualitative Comparisons</h3>
+      <div style="display:flex;gap:10px;align-items:center;">
+        <button class="mc-autoplay-btn" id="case-autoplay-btn" onclick="mcToggleAutoplay('case-carousel', this)">⏸ Pause</button>
+        <a href="case_gallery.html" class="btn btn-outline" style="font-size:0.82rem;padding:6px 14px;">
+          Browse Case Gallery →
+        </a>
+      </div>
+    </div>
+
+    <div class="manual-carousel" id="case-carousel">
+      <button class="mc-prev" onclick="mcPrev('case-carousel')" aria-label="Previous">&#8249;</button>
+      <div class="mc-viewport">
+        <div class="mc-track" id="case-mc-track">
+          <div class="mc-slide">
+            <img src="assets/main/customization_case_1.jpg" alt="Customization Case 1" loading="lazy" onclick="openLightbox(this.src, this.alt)" />
+            <div class="mc-caption">
+              <span class="tag tag-customization">Customization</span>
+              A standard multi-image customization case, effectively integrating features from multiple images to produce coherent, contextually relevant outputs.
+            </div>
+          </div>
+          <div class="mc-slide">
+            <img src="assets/main/customization_case_2.jpg" alt="Customization Case 2" loading="lazy" onclick="openLightbox(this.src, this.alt)" />
+            <div class="mc-caption">
+              <span class="tag tag-customization">Customization</span>
+              A more complex customization case with 10 input images, demonstrating strong performance in handling extensive visual contexts.
+            </div>
+          </div>
+          <div class="mc-slide">
+            <img src="assets/main/illustration_case_1.jpg" alt="Illustration Case 1" loading="lazy" onclick="openLightbox(this.src, this.alt)" />
+            <div class="mc-caption">
+              <span class="tag tag-illustration">Illustration</span>
+              Generating descriptive images based on both textual content and visual information.
+            </div>
+          </div>
+          <div class="mc-slide">
+            <img src="assets/main/spatial_case_1.jpg" alt="Spatial Case 1" loading="lazy" onclick="openLightbox(this.src, this.alt)" />
+            <div class="mc-caption">
+              <span class="tag tag-spatial">Spatial</span>
+              Predicting novel viewpoints of an object from complex multi-view inputs.
+            </div>
+          </div>
+          <div class="mc-slide">
+            <img src="assets/main/temporal_case_1.jpg" alt="Temporal Case 1" loading="lazy" onclick="openLightbox(this.src, this.alt)" />
+            <div class="mc-caption">
+              <span class="tag tag-temporal">Temporal</span>
+              Forecasting future frames while maintaining strict visual consistency and temporal coherence.
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="mc-next" onclick="mcNext('case-carousel')" aria-label="Next">&#8250;</button>
+      <div class="mc-dots" id="case-mc-dots"></div>
+    </div>
+
+    <!-- Results text -->
+    <div style="margin-top: 48px; max-width: 900px; margin-left:auto; margin-right:auto;">
+      <h3 style="font-size:1.3rem;font-weight:700;margin-bottom:16px;">Benchmark Analysis</h3>
+      <p style="font-size:.95rem;line-height:1.8;color:var(--text);">
+        MacroBench evaluates models across 16 sub-categories defined by the cross-product of four tasks and four image-count buckets (1-3, 4-5, 6-7, 8-10), yielding a comprehensive assessment of multi-reference generation capabilities. Our evaluation reveals several key findings. First, performance consistently degrades as the number of input reference images increases, highlighting that handling large visual contexts remains an open challenge for all current architectures. Second, models fine-tuned on MacroData show substantial gains over their base counterparts across all tasks and image-count groups, with our fine-tuned Bagel achieving a 5.71 average score, ranking third overall behind only the closed-source Nano Banana Pro and GPT-Image-1.5, and substantially improving over the base Bagel (3.03). Notably, it approaches Nano Banana Pro in Customization and surpasses it in Spatial tasks. Under identical architectures, MacroData also outperforms alternative fine-tuning datasets including Echo4o, MICo, and OpenSubject, validating its effectiveness.
+      </p>
+      <p style="font-size:.95rem;line-height:1.8;color:var(--text);margin-top:16px;">
+        Furthermore, while increasing input images from 1–5 to 6–10 degrades performance generally, models trained on MacroData exhibit improved robustness. For instance, our fine-tuned Qwen mitigates the severe drops in Customization and Illustration observed in the base model. MacroData also provides stable gains in challenging Spatial tasks where base models typically score below 1.0. To further validate the generalization capabilities of our dataset, we evaluate performance on the OmniContext benchmark, which targets 1–3 image Customization tasks. MacroData achieves strong OmniContext performance despite targeting the broader multi-reference setting, notably surpassing Echo4o—a dataset purpose-built for OmniContext that also distills from closed-source models—validating the quality of our data collection pipeline.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ABLATION ===== -->
+<section id="ablation">
+  <div class="container">
+    <h2 class="section-title"><span>Ablation Studies</span></h2>
+
+    <!-- data_ratio -->
+    <div class="accordion" id="acc-data-ratio">
+      <button class="accordion-header" onclick="toggleAccordion('acc-data-ratio')">
+        <span>📊 Effect of Data Ratio across Tasks</span>
+        <svg class="accordion-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6,9 12,15 18,9"/></svg>
+      </button>
+      <div class="accordion-body" style="text-align: left;">
+        <img src="assets/main/data_ratio_ablation.jpg" alt="Data Ratio Ablation" onclick="openLightbox(this.src, this.alt)" />
+        <p>
+          We examine how the distribution of training samples across input image counts affects model performance on progressive tasks—where task difficulty increases with input count (e.g., Customization)—and non-progressive tasks (e.g., Temporal). We compare four sampling ratios (1:1:1:1, 2:2:3:3, 1:2:3:4, and 1:3:7:9) applied to input groups of 1–3, 4–5, 6–7, and 8–10 images. We observe that upweighting large-input samples substantially boosts high-input performance on progressive tasks without hurting low-input performance, while non-progressive tasks show no such sensitivity. Based on these findings, MacroData adopts a 2:2:3:3 ratio for Customization and 1:1:1:1 for all other tasks.
+        </p>
+      </div>
+    </div>
+
+    <!-- data_scale -->
+    <div class="accordion" id="acc-data-scale">
+      <button class="accordion-header" onclick="toggleAccordion('acc-data-scale')">
+        <span>📈 Effect of Training Data Scale</span>
+        <svg class="accordion-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6,9 12,15 18,9"/></svg>
+      </button>
+      <div class="accordion-body" style="text-align: left;">
+        <img src="assets/main/data_scale_ablation.jpg" alt="Data Scale Ablation" onclick="openLightbox(this.src, this.alt)" />
+        <p>
+          We study how dataset size (1K, 5K, 10K, 20K samples) affects Customization performance, evaluated on the Customization subsets of both MacroBench and OmniContext. Performance scales consistently with data volume, with the sharpest gains occurring between 1K and 10K. Returns diminish from 10K to 20K, suggesting approaching saturation, though larger datasets continue to stabilize training convergence. We therefore scale each task to 100K samples in MacroData.
+        </p>
+      </div>
+    </div>
+
+    <!-- t2i_ratio -->
+    <div class="accordion" id="acc-t2i-ratio">
+      <button class="accordion-header" onclick="toggleAccordion('acc-t2i-ratio')">
+        <span>⚖️ Effect of Text-to-Image Training Ratio</span>
+        <svg class="accordion-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6,9 12,15 18,9"/></svg>
+      </button>
+      <div class="accordion-body" style="text-align: left;">
+        <img src="assets/main/t2i_ratio_ablation.jpg" alt="T2I Ratio Ablation" onclick="openLightbox(this.src, this.alt)" />
+        <p>
+          To analyze the trade-off between multi-reference and standard T2I generation, we evaluate models trained with varying T2I data ratios (0%, 10%, 20%, 40%) on GenEval and a representative MacroBench subset. While T2I co-training significantly enhances GenEval performance, increasing the ratio beyond 10% yields negligible marginal gains. Consequently, we adopt a 10% T2I data ratio for models trained on MacroData to optimize training efficiency.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== BIBTEX ===== -->
+<section id="bibtex" style="background: var(--surface-2);">
+  <div class="container">
+    <h2 class="section-title"><span>BibTeX</span></h2>
+    <div style="max-width: 800px; margin: 0 auto; position: relative;">
+      <div class="bibtex-box" id="bibtex-content">
+        <button class="bibtex-copy" onclick="copyBibtex()">📋 Copy</button>
+@article{chen2026macro,
+  title     = {MACRO: Advancing Multi-Reference Image Generation with Structured Long-Context Data},
+  author    = {Chen, Zhekai and Wang, Yuqing and Zhang, Manyuan and Liu, Xihui},
+  journal   = {arXiv preprint arXiv:2026.00000},
+  year      = {2026},
+  url       = {https://arxiv.org/abs/2026.00000}
+}</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div>
+    <strong>MACRO</strong> &copy; 2026 &mdash; All Rights Reserved.<br />
+    <a href="#">arXiv</a> &nbsp;|&nbsp; <a href="#">GitHub</a> &nbsp;|&nbsp; <a href="data_gallery.html">Data Gallery</a> &nbsp;|&nbsp; <a href="case_gallery.html">Case Gallery</a>
+  </div>
+</footer>
+
+<!-- Back to top -->
+<button class="back-to-top" id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+<!-- ===== LIGHTBOX ===== -->
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+  <button class="lightbox-close" onclick="closeLightbox()" aria-label="Close">✕</button>
+  <img id="lightbox-img" src="" alt="" />
+</div>
+
+<!-- ===== SCRIPTS ===== -->
+<script>
+  // ---- Manual + Auto-play Carousel ----
+  const mcState = {};
+  const AUTOPLAY_INTERVAL = 10000; // 10 seconds
+
+  function mcInit(carouselId) {
+    const carousel = document.getElementById(carouselId);
+    if (!carousel) return;
+    const track = carousel.querySelector('.mc-track');
+    const slides = track.querySelectorAll('.mc-slide');
+    const dotsContainer = carousel.querySelector('.mc-dots');
+    const total = slides.length;
+    mcState[carouselId] = { current: 0, total, paused: false, timer: null };
+
+    // Build dots
+    dotsContainer.innerHTML = Array.from({length: total}, (_, i) =>
+      `<button class="mc-dot ${i === 0 ? 'active' : ''}" onclick="mcGoTo('${carouselId}', ${i})"></button>`
+    ).join('');
+
+    updateMC(carouselId);
+    mcStartAutoplay(carouselId);
+
+    // Pause on hover
+    carousel.addEventListener('mouseenter', () => { mcState[carouselId].hovered = true; });
+    carousel.addEventListener('mouseleave', () => { mcState[carouselId].hovered = false; });
+  }
+
+  function mcStartAutoplay(carouselId) {
+    const s = mcState[carouselId];
+    if (s.timer) clearInterval(s.timer);
+    s.timer = setInterval(() => {
+      if (!s.paused && !s.hovered) {
+        s.current = (s.current + 1) % s.total;
+        updateMC(carouselId);
+      }
+    }, AUTOPLAY_INTERVAL);
+  }
+
+  function mcToggleAutoplay(carouselId, btn) {
+    const s = mcState[carouselId];
+    s.paused = !s.paused;
+    btn.textContent = s.paused ? '▶ Play' : '⏸ Pause';
+    btn.classList.toggle('paused', s.paused);
+  }
+
+  function updateMC(carouselId) {
+    const carousel = document.getElementById(carouselId);
+    const track = carousel.querySelector('.mc-track');
+    const { current } = mcState[carouselId];
+    track.style.transform = `translateX(-${current * 100}%)`;
+
+    // Update dots
+    carousel.querySelectorAll('.mc-dot').forEach((d, i) => {
+      d.classList.toggle('active', i === current);
+    });
+  }
+
+  function mcPrev(carouselId) {
+    const s = mcState[carouselId];
+    s.current = (s.current - 1 + s.total) % s.total;
+    updateMC(carouselId);
+  }
+
+  function mcNext(carouselId) {
+    const s = mcState[carouselId];
+    s.current = (s.current + 1) % s.total;
+    updateMC(carouselId);
+  }
+
+  function mcGoTo(carouselId, idx) {
+    mcState[carouselId].current = idx;
+    updateMC(carouselId);
+  }
+
+  mcInit('data-carousel');
+  mcInit('case-carousel');
+
+  // ---- Pipeline tabs ----
+  function switchPipeline(task, btn) {
+    document.querySelectorAll('.pipeline-panel').forEach(p => p.classList.remove('active'));
+    document.querySelectorAll('.pipeline-tab').forEach(b => b.classList.remove('active'));
+    document.getElementById('pipeline-' + task).classList.add('active');
+    btn.classList.add('active');
+  }
+
+  // ---- Accordion ----
+  function toggleAccordion(id) {
+    const el = document.getElementById(id);
+    el.classList.toggle('open');
+  }
+
+  // ---- BibTeX copy ----
+  function copyBibtex() {
+    const text = document.getElementById('bibtex-content').innerText.replace('📋 Copy', '').trim();
+    navigator.clipboard.writeText(text).then(() => {
+      const btn = document.querySelector('.bibtex-copy');
+      btn.textContent = '✅ Copied!';
+      setTimeout(() => { btn.textContent = '📋 Copy'; }, 2000);
+    });
+  }
+
+  // ---- Back to top ----
+  const backBtn = document.getElementById('back-to-top');
+  window.addEventListener('scroll', () => {
+    backBtn.classList.toggle('visible', window.scrollY > 400);
+  });
+
+  // ---- Lightbox ----
+  function openLightbox(src, alt) {
+    const lb = document.getElementById('lightbox');
+    const img = document.getElementById('lightbox-img');
+    img.src = src;
+    img.alt = alt || '';
+    lb.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeLightbox() {
+    const lb = document.getElementById('lightbox');
+    lb.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') closeLightbox();
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Data Gallery – MACRO</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+<!-- ===== NAV ===== -->
+<nav class="navbar">
+  <div class="navbar-inner">
+    <span class="navbar-brand">MACRO</span>
+    <a href="index.html" class="nav-tab">🏠 Home</a>
+    <a href="data_gallery.html" class="nav-tab active">🖼 Data Gallery</a>
+    <a href="case_gallery.html" class="nav-tab">🔬 Case Gallery</a>
+  </div>
+</nav>
+
+<!-- ===== HEADER ===== -->
+<div class="gallery-header">
+  <div class="container">
+    <h1 class="gallery-title">Data Gallery</h1>
+    <p class="gallery-subtitle">
+      Browse curated training samples from the MacroData dataset across all four tasks and image-count categories.
+    </p>
+  </div>
+</div>
+
+<!-- ===== FILTER BAR ===== -->
+<div class="filter-bar">
+  <div class="filter-bar-inner">
+    <span class="filter-label">Task:</span>
+    <div class="filter-group" id="task-filter">
+      <span class="filter-chip active" data-value="all" onclick="setFilter('task','all',this)">All</span>
+      <span class="filter-chip" data-value="customization" onclick="setFilter('task','customization',this)">Customization</span>
+      <span class="filter-chip" data-value="illustration" onclick="setFilter('task','illustration',this)">Illustration</span>
+      <span class="filter-chip" data-value="spatial" onclick="setFilter('task','spatial',this)">Spatial</span>
+      <span class="filter-chip" data-value="temporal" onclick="setFilter('task','temporal',this)">Temporal</span>
+    </div>
+    <span class="filter-label" style="margin-left:16px;"># Images:</span>
+    <div class="filter-group" id="imgnum-filter">
+      <span class="filter-chip active" data-value="all" onclick="setFilter('imgnum','all',this)">All</span>
+      <span class="filter-chip" data-value="1-3" onclick="setFilter('imgnum','1-3',this)">1-3</span>
+      <span class="filter-chip" data-value="4-5" onclick="setFilter('imgnum','4-5',this)">4-5</span>
+      <span class="filter-chip" data-value="6-7" onclick="setFilter('imgnum','6-7',this)">6-7</span>
+      <span class="filter-chip" data-value=">=8" onclick="setFilter('imgnum','>=8',this)">≥8</span>
+    </div>
+  </div>
+</div>
+
+<!-- ===== GALLERY CONTENT ===== -->
+<div class="container">
+  <div id="gallery-content" class="sample-grid">
+    <div class="loading-spinner">
+      <div class="spinner"></div>
+      <span>Loading gallery data...</span>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div>
+    <strong>MACRO</strong> &copy; 2026 &mdash;
+    <a href="index.html">Home</a> &nbsp;|&nbsp; <a href="data_gallery.html">Data Gallery</a> &nbsp;|&nbsp; <a href="case_gallery.html">Case Gallery</a>
+  </div>
+</footer>
+
+<button class="back-to-top" id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+<!-- ===== LIGHTBOX ===== -->
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+  <button class="lightbox-close" onclick="closeLightbox()" aria-label="Close">✕</button>
+  <img id="lightbox-img" src="" alt="" />
+</div>
+
+<!-- ===== SCRIPTS ===== -->
+<script src="assets/js/gallery.js"></script>
+<script>
+  // Active filters
+  const filters = { task: 'all', imgnum: 'all' };
+
+  function setFilter(type, value, chip) {
+    filters[type] = value;
+
+    // Update chip styles
+    const groupId = type === 'task' ? 'task-filter' : 'imgnum-filter';
+    document.querySelectorAll('#' + groupId + ' .filter-chip').forEach(c => {
+      c.classList.remove('active', 'active-customization', 'active-illustration', 'active-spatial', 'active-temporal');
+    });
+
+    if (value !== 'all' && type === 'task') {
+      chip.classList.add('active-' + value);
+    } else {
+      chip.classList.add('active');
+    }
+
+    renderGallery();
+  }
+
+  function renderGallery() {
+    const container = document.getElementById('gallery-content');
+
+    // Filter samples
+    let samples = window.DATA_GALLERY || [];
+    if (filters.task !== 'all') {
+      samples = samples.filter(s => s.task === filters.task);
+    }
+    if (filters.imgnum !== 'all') {
+      samples = samples.filter(s => s.imgnum === filters.imgnum);
+    }
+
+    if (samples.length === 0) {
+      container.innerHTML = '<div class="empty-state">No samples found for the selected filters.</div>';
+      return;
+    }
+
+    container.innerHTML = samples.map((s, i) => buildDataCard(s, i)).join('');
+  }
+
+  function buildDataCard(s, idx) {
+    const taskClass = 'tag-' + s.task;
+
+    // Input images row
+    const inputImgs = s.input_images.map((imgPath, i) => `
+      <div class="img-cell">
+        <img src="${imgPath}" alt="Input ${i+1}" loading="lazy"
+             onclick="openLightbox(this.src, 'Input ${i+1}')" />
+        <div class="img-label">Input ${i+1}</div>
+      </div>
+    `).join('');
+
+    // Target image
+    const targetImg = s.target_image ? `
+      <div class="img-cell">
+        <img src="${s.target_image}" alt="Target" loading="lazy"
+             onclick="openLightbox(this.src, 'Target')" />
+        <div class="img-label">Target</div>
+      </div>
+    ` : '';
+
+    return `
+      <div class="sample-card" data-task="${s.task}" data-imgnum="${s.imgnum}">
+        <div class="sample-card-header">
+          <span class="tag ${taskClass}">${capitalize(s.task)}</span>
+          <span class="tag" style="background:#64748b;">${s.imgnum} imgs</span>
+          <span class="sample-id">#${String(idx+1).padStart(3,'0')}</span>
+        </div>
+        <div class="sample-card-body">
+          <div class="img-row">${inputImgs}</div>
+          <div class="prompt-text">${escapeHtml(s.prompt)}</div>
+          <hr class="section-divider" />
+          <div style="font-size:0.82rem;font-weight:600;color:var(--text-muted);margin-bottom:8px;">Target</div>
+          <div class="img-row">${targetImg || '<span style="color:var(--text-light);font-size:.85rem;">No target available</span>'}</div>
+        </div>
+      </div>
+    `;
+  }
+
+  function capitalize(s) { return s.charAt(0).toUpperCase() + s.slice(1); }
+  function escapeHtml(s) {
+    return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  // Load data
+  function loadGalleryData() {
+    fetch('assets/gallery/data/gallery_data.json')
+      .then(r => r.json())
+      .then(data => {
+        window.DATA_GALLERY = data;
+        renderGallery();
+      })
+      .catch(err => {
+        document.getElementById('gallery-content').innerHTML =
+          `<div class="empty-state">
+            <strong>Gallery data not yet available.</strong><br/>
+            Please run <code>scripts/get_data_gallery.py</code> to generate the data first.
+          </div>`;
+      });
+  }
+
+  loadGalleryData();
+
+  // Back to top
+  const backBtn = document.getElementById('back-to-top');
+  window.addEventListener('scroll', () => {
+    backBtn.classList.toggle('visible', window.scrollY > 400);
+  });
+
+  // Lightbox
+  function openLightbox(src, alt) {
+    const lb = document.getElementById('lightbox');
+    const img = document.getElementById('lightbox-img');
+    img.src = src;
+    img.alt = alt || '';
+    lb.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeLightbox() {
+    document.getElementById('lightbox').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') closeLightbox();
+  });
+
+  // Prevent lightbox image click from closing
+  document.getElementById('lightbox-img').addEventListener('click', e => e.stopPropagation());
+</script>
+
+</body>
+</html>

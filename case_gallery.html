@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Case Gallery – MACRO</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+<!-- ===== NAV ===== -->
+<nav class="navbar">
+  <div class="navbar-inner">
+    <span class="navbar-brand">MACRO</span>
+    <a href="index.html" class="nav-tab">🏠 Home</a>
+    <a href="data_gallery.html" class="nav-tab">🖼 Data Gallery</a>
+    <a href="case_gallery.html" class="nav-tab active">🔬 Case Gallery</a>
+  </div>
+</nav>
+
+<!-- ===== HEADER ===== -->
+<div class="gallery-header">
+  <div class="container">
+    <h1 class="gallery-title">Case Gallery</h1>
+    <p class="gallery-subtitle">
+      Compare generation results across models. Select which models to display using the toggles below.
+    </p>
+  </div>
+</div>
+
+<!-- ===== FILTER BAR ===== -->
+<div class="filter-bar">
+  <div class="filter-bar-inner" style="flex-wrap:wrap;gap:12px;">
+    <!-- Task filter -->
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+      <span class="filter-label">Task:</span>
+      <div class="filter-group" id="task-filter">
+        <span class="filter-chip active" data-value="all" onclick="setTaskFilter('all',this)">All</span>
+        <span class="filter-chip" data-value="customization" onclick="setTaskFilter('customization',this)">Customization</span>
+        <span class="filter-chip" data-value="illustration" onclick="setTaskFilter('illustration',this)">Illustration</span>
+        <span class="filter-chip" data-value="spatial" onclick="setTaskFilter('spatial',this)">Spatial</span>
+        <span class="filter-chip" data-value="temporal" onclick="setTaskFilter('temporal',this)">Temporal</span>
+      </div>
+    </div>
+    <!-- Image num filter -->
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+      <span class="filter-label"># Images:</span>
+      <div class="filter-group" id="imgnum-filter">
+        <span class="filter-chip active" data-value="all" onclick="setImgnumFilter('all',this)">All</span>
+        <span class="filter-chip" data-value="1-3" onclick="setImgnumFilter('1-3',this)">1-3</span>
+        <span class="filter-chip" data-value="4-5" onclick="setImgnumFilter('4-5',this)">4-5</span>
+        <span class="filter-chip" data-value="6-7" onclick="setImgnumFilter('6-7',this)">6-7</span>
+        <span class="filter-chip" data-value=">=8" onclick="setImgnumFilter('>=8',this)">≥8</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Model toggle bar -->
+<div style="background:var(--surface-2);border-bottom:1px solid var(--border);padding:12px 0;position:sticky;top:112px;z-index:88;">
+  <div class="container">
+    <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
+      <span class="filter-label">Show Models:</span>
+      <div class="model-toggles" id="model-toggles">
+        <!-- Populated by JS -->
+      </div>
+      <button onclick="selectAll()" style="margin-left:auto;padding:4px 12px;border-radius:6px;border:1px solid var(--border);background:var(--surface);font-size:.8rem;cursor:pointer;color:var(--text-muted);">All</button>
+      <button onclick="selectNone()" style="padding:4px 12px;border-radius:6px;border:1px solid var(--border);background:var(--surface);font-size:.8rem;cursor:pointer;color:var(--text-muted);">None</button>
+      <button onclick="selectDefaults()" style="padding:4px 12px;border-radius:6px;border:1px solid var(--primary);background:var(--primary);color:#fff;font-size:.8rem;cursor:pointer;">Default</button>
+    </div>
+  </div>
+</div>
+
+<!-- ===== GALLERY CONTENT ===== -->
+<div class="container">
+  <div id="gallery-content" class="sample-grid">
+    <div class="loading-spinner">
+      <div class="spinner"></div>
+      <span>Loading gallery data...</span>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div>
+    <strong>MACRO</strong> &copy; 2026 &mdash;
+    <a href="index.html">Home</a> &nbsp;|&nbsp; <a href="data_gallery.html">Data Gallery</a> &nbsp;|&nbsp; <a href="case_gallery.html">Case Gallery</a>
+  </div>
+</footer>
+
+<button class="back-to-top" id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+<!-- ===== LIGHTBOX ===== -->
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+  <button class="lightbox-close" onclick="closeLightbox()" aria-label="Close">✕</button>
+  <img id="lightbox-img" src="" alt="" />
+</div>
+
+<script src="assets/js/gallery.js"></script>
+<script>
+  // ================================================================
+  // Model definitions (display order and labels)
+  // ================================================================
+  const ALL_MODELS = [
+    // API
+    { key: 'gpt',            label: 'GPT-4o',            group: 'API',      default: false },
+    { key: 'nano',           label: 'Gemini-Nano',        group: 'API',      default: true  },
+    // BAGEL
+    { key: 'bagel',          label: 'BAGEL Official',     group: 'BAGEL',    default: false },
+    { key: 'bagel_echo4o',   label: 'BAGEL + Echo4o',     group: 'BAGEL',    default: true  },
+    { key: 'bagel_mico',     label: 'BAGEL + MICO',       group: 'BAGEL',    default: true  },
+    { key: 'bagel_macro',    label: 'BAGEL + MacroData ★',    group: 'BAGEL',    default: true  },
+    // OmniGen2
+    { key: 'omnigen',        label: 'OmniGen2 Official',  group: 'OmniGen2', default: false },
+    { key: 'omnigen_mico',   label: 'OmniGen2 + MICO',    group: 'OmniGen2', default: false },
+    { key: 'omnigen_opensub',label: 'OmniGen2 + OpenSub', group: 'OmniGen2', default: false },
+    { key: 'omnigen_macro',  label: 'OmniGen2 + MacroData ★', group: 'OmniGen2', default: false },
+    // Qwen
+    { key: 'qwen',           label: 'Qwen Official',      group: 'Qwen',     default: false },
+    { key: 'qwen_macro',     label: 'Qwen + MacroData ★',     group: 'Qwen',     default: false },
+  ];
+
+  const DEFAULT_MODELS = ALL_MODELS.filter(m => m.default).map(m => m.key);
+  const enabledModels = new Set(DEFAULT_MODELS);
+
+  // Task / imgnum filters
+  let filterTask = 'all';
+  let filterImgnum = 'all';
+
+  // ================================================================
+  // Build model toggle bar
+  // ================================================================
+  function buildModelToggles() {
+    const bar = document.getElementById('model-toggles');
+    bar.innerHTML = ALL_MODELS.map(m => `
+      <label class="model-toggle ${enabledModels.has(m.key) ? 'checked' : ''}" id="toggle-${m.key}" onclick="toggleModel('${m.key}', this)">
+        <input type="checkbox" ${enabledModels.has(m.key) ? 'checked' : ''} />
+        ${m.label}
+      </label>
+    `).join('');
+  }
+
+  function toggleModel(key, label) {
+    if (enabledModels.has(key)) {
+      enabledModels.delete(key);
+      label.classList.remove('checked');
+    } else {
+      enabledModels.add(key);
+      label.classList.add('checked');
+    }
+    renderGallery();
+  }
+
+  function selectAll() {
+    ALL_MODELS.forEach(m => {
+      enabledModels.add(m.key);
+      document.getElementById('toggle-' + m.key).classList.add('checked');
+    });
+    renderGallery();
+  }
+
+  function selectNone() {
+    ALL_MODELS.forEach(m => {
+      enabledModels.delete(m.key);
+      document.getElementById('toggle-' + m.key).classList.remove('checked');
+    });
+    renderGallery();
+  }
+
+  function selectDefaults() {
+    ALL_MODELS.forEach(m => {
+      const el = document.getElementById('toggle-' + m.key);
+      if (m.default) { enabledModels.add(m.key); el.classList.add('checked'); }
+      else { enabledModels.delete(m.key); el.classList.remove('checked'); }
+    });
+    renderGallery();
+  }
+
+  // ================================================================
+  // Filter handlers
+  // ================================================================
+  function setTaskFilter(value, chip) {
+    filterTask = value;
+    document.querySelectorAll('#task-filter .filter-chip').forEach(c => {
+      c.classList.remove('active','active-customization','active-illustration','active-spatial','active-temporal');
+    });
+    chip.classList.add(value !== 'all' ? 'active-' + value : 'active');
+    renderGallery();
+  }
+
+  function setImgnumFilter(value, chip) {
+    filterImgnum = value;
+    document.querySelectorAll('#imgnum-filter .filter-chip').forEach(c => {
+      c.classList.remove('active');
+    });
+    chip.classList.add('active');
+    renderGallery();
+  }
+
+  // ================================================================
+  // Render
+  // ================================================================
+  function renderGallery() {
+    const container = document.getElementById('gallery-content');
+    let samples = window.CASE_GALLERY || [];
+
+    if (filterTask !== 'all') samples = samples.filter(s => s.task === filterTask);
+    if (filterImgnum !== 'all') samples = samples.filter(s => s.imgnum === filterImgnum);
+
+    if (samples.length === 0) {
+      container.innerHTML = '<div class="empty-state">No samples found for the selected filters.</div>';
+      return;
+    }
+
+    container.innerHTML = samples.map((s, i) => buildCaseCard(s, i)).join('');
+  }
+
+  function buildCaseCard(s, idx) {
+    const taskClass = 'tag-' + s.task;
+
+    // Input images
+    const inputImgs = s.input_images.map((imgPath, i) => `
+      <div class="img-cell">
+        <img src="${imgPath}" alt="Input ${i+1}" loading="lazy"
+             onclick="openLightbox(this.src, 'Input ${i+1}')" />
+        <div class="img-label">Input ${i+1}</div>
+      </div>
+    `).join('');
+
+    // Build flat output list: GT first, then models in ALL_MODELS order
+    let outputCells = '';
+
+    // Ground truth (skip for customization task)
+    if (s.gt_image && s.task !== 'customization') {
+      outputCells += `
+        <div class="output-flat-cell gt">
+          <img src="${s.gt_image}" alt="Ground Truth" loading="lazy"
+               onclick="openLightbox(this.src, 'Ground Truth')" />
+          <div class="model-badge">Ground Truth</div>
+        </div>
+      `;
+    }
+
+    // Model outputs (flat, no group separators)
+    ALL_MODELS.forEach(m => {
+      if (!enabledModels.has(m.key)) return;
+      if (!s.outputs || !s.outputs[m.key]) return;
+      const isOurs = m.key.endsWith('_macro');
+      outputCells += `
+        <div class="output-flat-cell ${isOurs ? 'ours' : ''}">
+          <img src="${s.outputs[m.key]}" alt="${m.label}" loading="lazy"
+               onclick="openLightbox(this.src, '${m.label}')" />
+          <div class="model-badge">${m.label}</div>
+        </div>
+      `;
+    });
+
+    const hasOutputs = outputCells.trim().length > 0;
+
+    return `
+      <div class="sample-card" data-task="${s.task}" data-imgnum="${s.imgnum}">
+        <div class="sample-card-header">
+          <span class="tag ${taskClass}">${capitalize(s.task)}</span>
+          <span class="tag" style="background:#64748b;">${s.imgnum} imgs</span>
+          <span class="sample-id">#${String(idx+1).padStart(3,'0')}</span>
+        </div>
+        <div class="sample-card-body">
+          <!-- Input row -->
+          <div style="font-size:0.82rem;font-weight:600;color:var(--text-muted);margin-bottom:6px;">Input Images</div>
+          <div class="img-row">${inputImgs}</div>
+          <div class="prompt-text">${escapeHtml(s.prompt)}</div>
+          <hr class="section-divider" />
+          <!-- All outputs flat (GT + models) -->
+          ${hasOutputs
+            ? `<div style="font-size:0.82rem;font-weight:600;color:var(--text-muted);margin-bottom:10px;">Model Outputs</div>
+               <div class="img-row">${outputCells}</div>`
+            : '<div class="empty-state" style="padding:20px 0;font-size:.85rem;">No models selected. Use the toggles above to choose models to display.</div>'
+          }
+        </div>
+      </div>
+    `;
+  }
+
+  function capitalize(s) { return s.charAt(0).toUpperCase() + s.slice(1); }
+  function escapeHtml(s) {
+    return (s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  // ================================================================
+  // Load data
+  // ================================================================
+  function loadGalleryData() {
+    fetch('assets/gallery/case/gallery_case.json')
+      .then(r => r.json())
+      .then(data => {
+        window.CASE_GALLERY = data;
+        renderGallery();
+      })
+      .catch(() => {
+        document.getElementById('gallery-content').innerHTML =
+          `<div class="empty-state">
+            <strong>Case gallery data not yet available.</strong><br/>
+            Please run <code>scripts/get_case_gallery.py</code> to generate the data first.
+          </div>`;
+      });
+  }
+
+  // Init
+  buildModelToggles();
+  loadGalleryData();
+
+  // Back to top
+  const backBtn = document.getElementById('back-to-top');
+  window.addEventListener('scroll', () => {
+    backBtn.classList.toggle('visible', window.scrollY > 400);
+  });
+
+  // ================================================================
+  // Lightbox
+  // ================================================================
+  function openLightbox(src, alt) {
+    const lb = document.getElementById('lightbox');
+    const img = document.getElementById('lightbox-img');
+    img.src = src;
+    img.alt = alt || '';
+    lb.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeLightbox() {
+    document.getElementById('lightbox').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') closeLightbox();
+  });
+
+  // Prevent lightbox image click from closing
+  document.getElementById('lightbox-img').addEventListener('click', e => e.stopPropagation());
+</script>
+
+</body>
+</html>

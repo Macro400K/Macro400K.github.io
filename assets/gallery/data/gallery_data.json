@@ -1,0 +1,705 @@
+[
+  {
+    "task": "customization",
+    "imgnum": "1-3",
+    "idx": "001",
+    "prompt": "Generate an image featuring the woman from <image 1> and the woman from <image 2> standing together. Position the woman from <image 1> on the left side and the woman from <image 2> on the right side. They should be facing each other slightly, appearing to be engaged in a conversation.",
+    "input_images": [
+      "assets/gallery/data/customization/1-3/001/input_1.jpg",
+      "assets/gallery/data/customization/1-3/001/input_2.jpg"
+    ],
+    "target_image": "assets/gallery/data/customization/1-3/001/target.jpg"
+  },
+  {
+    "task": "customization",
+    "imgnum": "1-3",
+    "idx": "002",
+    "prompt": "A waist-up portrait of the woman from <image 1> standing in a misty bamboo forest. She gazes forward with a calm expression, illuminated by soft, diffuse morning light.",
+    "input_images": [
+      "assets/gallery/data/customization/1-3/002/input_1.jpg"
+    ],
+    "target_image": "assets/gallery/data/customization/1-3/002/target.jpg"
+  },
+  {
+    "task": "customization",
+    "imgnum": "1-3",
+    "idx": "003",
+    "prompt": "The three apples from <image 1> sitting on a rustic wooden table in a sunlit kitchen.",
+    "input_images": [
+      "assets/gallery/data/customization/1-3/003/input_1.jpg"
+    ],
+    "target_image": "assets/gallery/data/customization/1-3/003/target.jpg"
+  },
+  {
+    "task": "customization",
+    "imgnum": "4-5",
+    "idx": "001",
+    "prompt": "Use the living room from <image 1> as the background scene. Place the man from <image 2> and the woman from <image 3> standing together inside the room. The woman from <image 3> is wearing the shirt from <image 4>.",
+    "input_images": [
+      "assets/gallery/data/customization/4-5/001/input_1.jpg",
+      "assets/gallery/data/customization/4-5/001/input_2.jpg",
+      "assets/gallery/data/customization/4-5/001/input_3.jpg",
+      "assets/gallery/data/customization/4-5/001/input_4.jpg"
+    ],
+    "target_image": "assets/gallery/data/customization/4-5/001/target.jpg"
+  },
+  {
+    "task": "customization",
+    "imgnum": "4-5",
+    "idx": "002",
+    "prompt": "Generate an image showing the young woman from <image 1> standing next to the older woman from <image 4>. The young woman from <image 1> is wearing the coat from <image 2> and has the watch from <image 5> on her wrist. The older woman from <image 4> is holding the packaged snack from <image 3> in her hand. They are interacting naturally in a shared indoor space.",
+    "input_images": [
+      "assets/gallery/data/customization/4-5/002/input_1.jpg",
+      "assets/gallery/data/customization/4-5/002/input_2.jpg",
+      "assets/gallery/data/customization/4-5/002/input_3.jpg",
+      "assets/gallery/data/customization/4-5/002/input_4.jpg",
+      "assets/gallery/data/customization/4-5/002/input_5.jpg"
+    ],
+    "target_image": "assets/gallery/data/customization/4-5/002/target.jpg"
+  },
+  {
+    "task": "customization",
+    "imgnum": "4-5",
+    "idx": "003",
+    "prompt": "Generate an image featuring the man from <image 1> and the woman from <image 3> standing together in the scene from <image 2>. The woman from <image 3> is wearing the dress from <image 4> and holding the phone as shown in her reference. The man from <image 1> stands beside her. They are positioned on the paved area in front of the monument from <image 2>.",
+    "input_images": [
+      "assets/gallery/data/customization/4-5/003/input_1.jpg",
+      "assets/gallery/data/customization/4-5/003/input_2.jpg",
+      "assets/gallery/data/customization/4-5/003/input_3.jpg",
+      "assets/gallery/data/customization/4-5/003/input_4.jpg"
+    ],
+    "target_image": "assets/gallery/data/customization/4-5/003/target.jpg"
+  },
+  {
+    "task": "customization",
+    "imgnum": "6-7",
+    "idx": "001",
+    "prompt": "Generate a group scene featuring four people. Place the elderly man from <image 5> in the center, holding the cluster of pears from <image 2>. To his left, position the smiling young woman from <image 1> holding the white fan from <image 4>. On the right side, have the young man from <image 3> standing next to the young man from <image 6>, as if they are conversing. Ensure all characters are arranged naturally together in a cohesive gathering.",
+    "input_images": [
+      "assets/gallery/data/customization/6-7/001/input_1.jpg",
+      "assets/gallery/data/customization/6-7/001/input_2.jpg",
+      "assets/gallery/data/customization/6-7/001/input_3.jpg",
+      "assets/gallery/data/customization/6-7/001/input_4.jpg",
+      "assets/gallery/data/customization/6-7/001/input_5.jpg",
+      "assets/gallery/data/customization/6-7/001/input_6.jpg"
+    ],
+    "target_image": "assets/gallery/data/customization/6-7/001/target.jpg"
+  },
+  {
+    "task": "customization",
+    "imgnum": "6-7",
+    "idx": "002",
+    "prompt": "Generate a scene using the dark porch from <image 1> as the background. The elderly woman from <image 3> is seated in one of the wicker chairs. The young woman from <image 5> stands nearby, wearing the silver top and green skirt from <image 4>. Place the rice cooker from <image 7>, the ceramic bowl from <image 6>, and the sugarcane stalk from <image 2> together on the small table in the center of the porch.",
+    "input_images": [
+      "assets/gallery/data/customization/6-7/002/input_1.jpg",
+      "assets/gallery/data/customization/6-7/002/input_2.jpg",
+      "assets/gallery/data/customization/6-7/002/input_3.jpg",
+      "assets/gallery/data/customization/6-7/002/input_4.jpg",
+      "assets/gallery/data/customization/6-7/002/input_5.jpg",
+      "assets/gallery/data/customization/6-7/002/input_6.jpg",
+      "assets/gallery/data/customization/6-7/002/input_7.jpg"
+    ],
+    "target_image": "assets/gallery/data/customization/6-7/002/target.jpg"
+  },
+  {
+    "task": "customization",
+    "imgnum": "6-7",
+    "idx": "003",
+    "prompt": "Create a group portrait featuring four people standing together in a cohesive scene. Include the woman from <image 1> wearing the earrings from <image 5>, the man from <image 2>, the boy from <image 3>, and the woman from <image 4> wearing the orange top from <image 6>. Arrange them naturally side-by-side.",
+    "input_images": [
+      "assets/gallery/data/customization/6-7/003/input_1.jpg",
+      "assets/gallery/data/customization/6-7/003/input_2.jpg",
+      "assets/gallery/data/customization/6-7/003/input_3.jpg",
+      "assets/gallery/data/customization/6-7/003/input_4.jpg",
+      "assets/gallery/data/customization/6-7/003/input_5.jpg",
+      "assets/gallery/data/customization/6-7/003/input_6.jpg"
+    ],
+    "target_image": "assets/gallery/data/customization/6-7/003/target.jpg"
+  },
+  {
+    "task": "customization",
+    "imgnum": ">=8",
+    "idx": "001",
+    "prompt": "Create a cohesive group portrait featuring the young woman from <image 1>, the young man from <image 3>, the elderly man from <image 5>, the young man from <image 6>, the woman from <image 7>, and the young woman from <image 8>. Arrange them standing or sitting together naturally. The young woman from <image 1> holds the white fan from <image 4> in her hand. Place the cluster of pears from <image 2> on a surface in the foreground.",
+    "input_images": [
+      "assets/gallery/data/customization/>=8/001/input_1.jpg",
+      "assets/gallery/data/customization/>=8/001/input_2.jpg",
+      "assets/gallery/data/customization/>=8/001/input_3.jpg",
+      "assets/gallery/data/customization/>=8/001/input_4.jpg",
+      "assets/gallery/data/customization/>=8/001/input_5.jpg",
+      "assets/gallery/data/customization/>=8/001/input_6.jpg",
+      "assets/gallery/data/customization/>=8/001/input_7.jpg",
+      "assets/gallery/data/customization/>=8/001/input_8.jpg"
+    ],
+    "target_image": "assets/gallery/data/customization/>=8/001/target.jpg"
+  },
+  {
+    "task": "customization",
+    "imgnum": ">=8",
+    "idx": "002",
+    "prompt": "Create a scene in the grassy park from <image 10>. In the background, park the white SUV from <image 2>. In the center, arrange a group consisting of the woman from <image 1> wearing the metallic skirt from <image 4>, the man from <image 3>, the smiling woman from <image 5>, the blonde woman from <image 7>, the man with glasses from <image 8>, and the man from <image 9>. Place the broccoli from <image 6> resting on one of the wooden logs in the grass.",
+    "input_images": [
+      "assets/gallery/data/customization/>=8/002/input_1.jpg",
+      "assets/gallery/data/customization/>=8/002/input_2.jpg",
+      "assets/gallery/data/customization/>=8/002/input_3.jpg",
+      "assets/gallery/data/customization/>=8/002/input_4.jpg",
+      "assets/gallery/data/customization/>=8/002/input_5.jpg",
+      "assets/gallery/data/customization/>=8/002/input_6.jpg",
+      "assets/gallery/data/customization/>=8/002/input_7.jpg",
+      "assets/gallery/data/customization/>=8/002/input_8.jpg",
+      "assets/gallery/data/customization/>=8/002/input_9.jpg",
+      "assets/gallery/data/customization/>=8/002/input_10.jpg"
+    ],
+    "target_image": "assets/gallery/data/customization/>=8/002/target.jpg"
+  },
+  {
+    "task": "customization",
+    "imgnum": ">=8",
+    "idx": "003",
+    "prompt": "Generate an image using the park gazebo from <image 5> as the background. Place the woman from <image 3> in the center, wearing the white dress from <image 6>. To her side, position the young man from <image 7> wearing the blue lace top from <image 9>. The middle-aged man from <image 4> stands nearby. Place the spray bottle from <image 1> and the chestnuts from <image 2> on the wooden bench of the gazebo. The blue butterfly from <image 8> flies in the air near the group.",
+    "input_images": [
+      "assets/gallery/data/customization/>=8/003/input_1.jpg",
+      "assets/gallery/data/customization/>=8/003/input_2.jpg",
+      "assets/gallery/data/customization/>=8/003/input_3.jpg",
+      "assets/gallery/data/customization/>=8/003/input_4.jpg",
+      "assets/gallery/data/customization/>=8/003/input_5.jpg",
+      "assets/gallery/data/customization/>=8/003/input_6.jpg",
+      "assets/gallery/data/customization/>=8/003/input_7.jpg",
+      "assets/gallery/data/customization/>=8/003/input_8.jpg",
+      "assets/gallery/data/customization/>=8/003/input_9.jpg"
+    ],
+    "target_image": "assets/gallery/data/customization/>=8/003/target.jpg"
+  },
+  {
+    "task": "illustration",
+    "imgnum": "1-3",
+    "idx": "001",
+    "prompt": "The 2018 MAEA Fall Conference is located at The Kalamazoo Radisson Hotel. You can order your own 2017 Conference T-Shirt, shown here in black with the vibrant 'Retro in the Metro' paintbrush skyline logo. <image 1> Because we are all unique, there may be a style or color of shirt you would rather have with the conference logo. You can order various items, including the white version of the tee shown below.",
+    "input_images": [
+      "assets/gallery/data/illustration/1-3/001/input_1.jpg"
+    ],
+    "target_image": "assets/gallery/data/illustration/1-3/001/target.jpg"
+  },
+  {
+    "task": "illustration",
+    "imgnum": "1-3",
+    "idx": "002",
+    "prompt": "The new Starbucks is due to open in Tunbridge Wells next month and it will bring an outdoor seating area. <image 1> It will be a comeback for the high street chain, which closed its branch in Calverley Road precinct last year. The new coffee shop is on Mount Pleasant opposite the War Memorial and the Tunbridge Wells Museum and Library. <image 2> It will be situated in an attractive 20th-century building previously occupied by estate agents Knight Frank. This marks a return to the building's former use, as it was the Priory Tea Rooms from the 1930s until the 1970s. The new store, run by Cobra Coffee, is expected to open on June 25 and will feature a distinctive glass frontage with bench seating on the terrace.",
+    "input_images": [
+      "assets/gallery/data/illustration/1-3/002/input_1.jpg",
+      "assets/gallery/data/illustration/1-3/002/input_2.jpg"
+    ],
+    "target_image": "assets/gallery/data/illustration/1-3/002/target.jpg"
+  },
+  {
+    "task": "illustration",
+    "imgnum": "1-3",
+    "idx": "003",
+    "prompt": "Sad news, as many have heard by now. Richard Matheson has died. I'd like to take a moment and record how several of his works influenced my initial and inchoate impulse to create my own stories. In October, 2000, I was in Evanston, Illinois, browsing in the erstwhile bookshop, Something Wicked. They had a copy of I Am Legend (1954) with which I was heretofore unfamiliar. I continue to cherish vivid memories of staying up late, absorbing the grim situation in which Robert Neville had been cast: \"[S]ometimes they were in the streets before he could get back... Something black and of the night had come crawling out of the Middle Ages.\" This particular paperback was the Chopping Block edition with the cover art seen here: <image 1> But probably the most wonderful memory I have of Matheson's work is one in which I was oblivious to his responsibility. I remember a New Year's Eve when I was young, staying awake in the small hours beyond midnight to watch the Twilight Zone marathon. Of course one of the episodes was \"Nightmare at 20,000 Feet,\" which would later provide some gleeful trauma. <image 2> I swiftly moved on to Hell House (1971), a profoundly unsettling ghost story which provided a myriad of disturbing images and scenarios. The story and the artwork remain indelible to this young writer's mind:",
+    "input_images": [
+      "assets/gallery/data/illustration/1-3/003/input_1.jpg",
+      "assets/gallery/data/illustration/1-3/003/input_2.jpg"
+    ],
+    "target_image": "assets/gallery/data/illustration/1-3/003/target.jpg"
+  },
+  {
+    "task": "illustration",
+    "imgnum": "4-5",
+    "idx": "001",
+    "prompt": "To enjoy 'Ohanami' at home, I decided to grow cherry blossoms from seeds. <image 1> The process begins after the flowers fade. In May, small green fruits develop among the leaves. <image 2> By June, these fruits turn red and then black as they ripen. <image 3> When fully ripe, the cherries fall naturally and can be collected from the ground. <image 4> It is essential to remove the skin and pulp, as the pulp can inhibit germination. The pulp is dark purple and can stain. Once washed and separated, the clean seeds are ready for the next step. <image 5> Finally, the seeds are planted into soil. Since space can be limited, multiple seeds are placed together in a nursery pot and covered with soil to await germination next spring.",
+    "input_images": [
+      "assets/gallery/data/illustration/4-5/001/input_1.jpg",
+      "assets/gallery/data/illustration/4-5/001/input_2.jpg",
+      "assets/gallery/data/illustration/4-5/001/input_3.jpg",
+      "assets/gallery/data/illustration/4-5/001/input_4.jpg",
+      "assets/gallery/data/illustration/4-5/001/input_5.jpg"
+    ],
+    "target_image": "assets/gallery/data/illustration/4-5/001/target.jpg"
+  },
+  {
+    "task": "illustration",
+    "imgnum": "4-5",
+    "idx": "002",
+    "prompt": "I decided to sew the Merchant and Mills Ellis pattern using a lush deep teal linen/cotton light twill. Here is the finished dress, featuring a dropped waist and gathered skirt. <image 1> The pattern includes lovely design elements, such as the four swoon-worthy darts positioned around the neckline <image 2> and a simple rouleau button closure at the back. <image 3> The dress is designed to be loose-fitting. Viewing it on the hanger reveals the significant volume created by the gathered skirt and wide bodice. <image 4> For the final fit, I removed some width from the skirt and shortened the hem to a midi length. The resulting garment is pleasingly floaty, comfortable, and perfect for layering or wearing on its own.",
+    "input_images": [
+      "assets/gallery/data/illustration/4-5/002/input_1.jpg",
+      "assets/gallery/data/illustration/4-5/002/input_2.jpg",
+      "assets/gallery/data/illustration/4-5/002/input_3.jpg",
+      "assets/gallery/data/illustration/4-5/002/input_4.jpg"
+    ],
+    "target_image": "assets/gallery/data/illustration/4-5/002/target.jpg"
+  },
+  {
+    "task": "illustration",
+    "imgnum": "4-5",
+    "idx": "003",
+    "prompt": "This guide outlines adding the dual lens PTZ (IPC9312LFW-AF28-2X4) to a Uniview NVR. Ensure the camera has an IP address within the local subnet.\n\nStep 1: Access the NVR web interface and navigate to Setup -> Camera -> Camera. Click the 'Auto Search' button to scan for devices.\n<image 1>\nStep 2: Select the PTZ from the results by checking the box next to its IP address. The 'Qty' column displays '2', indicating that both lenses will be added. Click 'OK' to proceed.\n<image 2>\nStep 3: The new channels appear in the camera list. If the status icons are grey, the connection was unsuccessful. Hovering over the icon reveals the cause, such as an 'Incorrect Username or Password' error if the default credentials were changed.\n<image 3>\nStep 4: To correct the credentials, select one of the channels and click the 'Modify' button. Enter the valid password in the password field and click 'Save'.\n<image 4>\nRepeat this process for the second channel. Upon refreshing, the Status icons for both channels will turn green, confirming the PTZ is online and ready for use.",
+    "input_images": [
+      "assets/gallery/data/illustration/4-5/003/input_1.jpg",
+      "assets/gallery/data/illustration/4-5/003/input_2.jpg",
+      "assets/gallery/data/illustration/4-5/003/input_3.jpg",
+      "assets/gallery/data/illustration/4-5/003/input_4.jpg"
+    ],
+    "target_image": "assets/gallery/data/illustration/4-5/003/target.jpg"
+  },
+  {
+    "task": "illustration",
+    "imgnum": "6-7",
+    "idx": "001",
+    "prompt": "We're finally in the season of warm colors and pumpkin spice. When shopping for your go-to items, your local drugstore has many treasured gems that won't break the bank. Check out our top skincare and beauty products under $16, starting with the L'Oreal Pure-Clay Mask to detoxify your skin. <image 1> This little piece of heaven is one of the top branded beauty sponges on the market. Its latex-free, precision tip and rounded sides are ideal for contouring and covering imperfections, used damp for a glow or dry for full coverage. <image 2> Hark, did we hear angels calling? The Maybelline Falsies Push Up Angel mascara breaks the mold with a long, skinny applicator for precise application, separating lashes and banishing clumps. <image 3> If you are itching to get your summer glow back minus the sun, the Pixi Glow Tonic is perfection in a bottle. It deep cleans your pores and exfoliates dead skin cells for that ultimate radiance. <image 4> Just because it's time to cover up doesn't mean you should forget your underarms. Dove Advanced Care provides 48-hour protection that helps repair dry or damaged skin without leaving marks on clothes. <image 5> A lotion made for applying right out of the shower? The Jergens Wet Skin Moisturizer locks in hydration at the peak moisture moment, promoting luminous skin with refreshing coconut oil. <image 6> I love these clay masks so much, I already own two of the four in the line. They give your skin a triple dose of health, leaving your face bright and fresh. Here they are alongside the other favorites in this haul. <image 7> Mini is all the rage this fall. The Maybelline City Mini Palette x Shayla is not only compact for on-the-go styling but features six different shades to take your look from day to night. Whether you're going for soft and feminine or bold and daring, you can't beat these gorgeous pigmented colors.",
+    "input_images": [
+      "assets/gallery/data/illustration/6-7/001/input_1.jpg",
+      "assets/gallery/data/illustration/6-7/001/input_2.jpg",
+      "assets/gallery/data/illustration/6-7/001/input_3.jpg",
+      "assets/gallery/data/illustration/6-7/001/input_4.jpg",
+      "assets/gallery/data/illustration/6-7/001/input_5.jpg",
+      "assets/gallery/data/illustration/6-7/001/input_6.jpg",
+      "assets/gallery/data/illustration/6-7/001/input_7.jpg"
+    ],
+    "target_image": "assets/gallery/data/illustration/6-7/001/target.jpg"
+  },
+  {
+    "task": "illustration",
+    "imgnum": "6-7",
+    "idx": "002",
+    "prompt": "The Marvel Cinematic Universe's expansion has led to theories regarding the fate of Superior Iron Man. <image 1> This comic book variant is a paranoid Tony Stark who relies on Ultron sentinels and a permanent suit. <image 2> His narrative often explores darker themes and his eventual demise. <image 3> Despite the appearance of his Ultron sentinels in *Doctor Strange in the Multiverse of Madness*, Stark himself was absent. <image 4> Fan expectations of Tom Cruise playing the role alongside the Illuminati were not met. <image 5> The absence suggests this universe's Stark died on Titan, a sacrifice made inevitable by his Doctor Strange. <image 6> Unlike the main timeline's Strange who saved Stark by bargaining with the Time Stone, Earth-838's Strange sought a different path to defeat Thanos: he used the Book of Vishanti.",
+    "input_images": [
+      "assets/gallery/data/illustration/6-7/002/input_1.jpg",
+      "assets/gallery/data/illustration/6-7/002/input_2.jpg",
+      "assets/gallery/data/illustration/6-7/002/input_3.jpg",
+      "assets/gallery/data/illustration/6-7/002/input_4.jpg",
+      "assets/gallery/data/illustration/6-7/002/input_5.jpg",
+      "assets/gallery/data/illustration/6-7/002/input_6.jpg"
+    ],
+    "target_image": "assets/gallery/data/illustration/6-7/002/target.jpg"
+  },
+  {
+    "task": "illustration",
+    "imgnum": "6-7",
+    "idx": "003",
+    "prompt": "Momolato is a dessert cafe by an Asian gelato champion. Consider this scoop of gelato. <image 1> With prior knowledge of the dessert, you may guess that it has six to nine percent butterfat, about 35% air, and some kind of flavouring. Its deep brown colour suggests, rather obviously, that it is made of cocoa. This is some sort of chocolate gelato, you conclude, and a fairly unremarkable-looking one at that. Yet, this gelato is anything but unremarkable. It was, in fact, crafted by one of the best gelato makers around, and we do not say that lightly. Sharon Tay, 43, is a gelato champion. In 2015, she clinched the top prize at the Asia Pacific leg of the Gelato World Tour, and later represented Singapore at the 2017 Gelato World Tour Finals in Italy. We're talking about the Son Heung-min of gelato here—someone who, at one point, was considered the best at their craft in Asia. <image 2> Today, you can have a taste of Sharon's work at Momolato, a chic gelateria located along Haji Lane. Besides the masterful gelato-making, the cafe is known for its innovative flavours such as Maple & Pancakes and White Miso Butterscotch, as well as its keto and vegan options. <image 3> But what exactly does it mean to be a gelato champion, and how does that translate into running a gelateria? We spoke to Sharon herself to find out. As far back as she can remember, Sharon had always been deeply enamoured with the art of ice cream making. \"When I was young, I would always make ice cream with my mom and grandma,\" she recalled. \"It became a real passion of mine.\" That passion never left Sharon, even as she moved through the rigours of Singaporean life. And so after eight years of working as an investment banker, she packed her bags and headed to the cradle of gelato—Italy. <image 4> In 2013, Sharon enrolled at Carpigiani Gelato University in Bologna, Italy. It's the world's first school dedicated to the art of gelato making. And as you'd expect with Italians and their food, the craft is taken very seriously there. <image 5> \"Italy was a real eye-opener for me, because I got to see how meticulous the chefs there were,\" Sharon noted. \"They believe that making very good gelato means using the best ingredients to start with, along with a balanced recipe. We follow that at Momolato.\" <image 6> Upon her return to Singapore, Sharon opened Momolato initially as a gelateria at SMU, before pivoting to a B2B business model. Like many newcomers to the F&B industry, those early days were tough—there were days when Sharon herself had to make gelato till one in the morning. <image 7> Eventually, those efforts paid off, and Momolato became a brand behind brands, a supplier to many famous restaurants, cafes, and hotels in the country. Still, Sharon had greater heights to scale. In 2015, Sharon and her team competed with other more established brands in the Gelato World Tour. Their entry, a gelato flavour titled \"Good 'Ol Days\", impressed judges so much that they walked away as the Asia Pacific gelato champion. The team went on to compete in the Gelato World Tour Finals in 2017, where they faced stiff competition from all around the globe. Even though they didn't win the finals, they were glad to showcase the flavours of Singapore to the world. After operating on a B2B model for several years, the Momolato cafe was opened along Haji Lane in 2021. To conclude the interview, we asked Sharon: what is the essence of gelato making? \"I would say it is sticking to your ethos, no matter what,\" Sharon concluded. \"Our ethos has never changed since day one. We strive to offer good quality gelato, using only good ingredients. We would never settle for anything less.\" Spoken like a true gelato champ.",
+    "input_images": [
+      "assets/gallery/data/illustration/6-7/003/input_1.jpg",
+      "assets/gallery/data/illustration/6-7/003/input_2.jpg",
+      "assets/gallery/data/illustration/6-7/003/input_3.jpg",
+      "assets/gallery/data/illustration/6-7/003/input_4.jpg",
+      "assets/gallery/data/illustration/6-7/003/input_5.jpg",
+      "assets/gallery/data/illustration/6-7/003/input_6.jpg",
+      "assets/gallery/data/illustration/6-7/003/input_7.jpg"
+    ],
+    "target_image": "assets/gallery/data/illustration/6-7/003/target.jpg"
+  },
+  {
+    "task": "illustration",
+    "imgnum": ">=8",
+    "idx": "001",
+    "prompt": "This Premium Fiddle Leaf Fig Potting Soil is specially created to provide well-draining soil using organic aged bark, coco coir, and perlite to maintain an optimal balance of water and air. <image 1> Developed by The Fiddle Leaf Fig Plant Resource Center, it is part of a holistic care system designed to support increased growth and stronger plant health. <image 2> The mix creates perfect root aeration to prevent bacterial and fungal root rot diseases, protecting against over and under watering. <image 3> Using this soil corrects common issues like brown spots and dropping leaves, encouraging robust, healthy growth compared to struggling plants. <image 4> It addresses the failures of traditional soils, which often hold too much water, drown roots, or harbor harmful bacteria and gnats. <image 5> The exclusive recipe features IBI-certified Biochar and green compost to increase nutrient retention and provide excellent drainage. <image 6> As a certified sterile and non-toxic product made in the USA, it offers distinct advantages over competitors, including a resealable bag for easy storage. <image 7> It is also highly cost-effective, saving you 50% compared to the expense and mess of mixing your own ingredients like biochar and aged bark. <image 8> The final product summarizes these advantages: significant cost savings, top-quality sustainably sourced ingredients, and a safe, optimal environment for any ficus or aroid houseplant.",
+    "input_images": [
+      "assets/gallery/data/illustration/>=8/001/input_1.jpg",
+      "assets/gallery/data/illustration/>=8/001/input_2.jpg",
+      "assets/gallery/data/illustration/>=8/001/input_3.jpg",
+      "assets/gallery/data/illustration/>=8/001/input_4.jpg",
+      "assets/gallery/data/illustration/>=8/001/input_5.jpg",
+      "assets/gallery/data/illustration/>=8/001/input_6.jpg",
+      "assets/gallery/data/illustration/>=8/001/input_7.jpg",
+      "assets/gallery/data/illustration/>=8/001/input_8.jpg"
+    ],
+    "target_image": "assets/gallery/data/illustration/>=8/001/target.jpg"
+  },
+  {
+    "task": "illustration",
+    "imgnum": ">=8",
+    "idx": "002",
+    "prompt": "Nomad is a brand of exclusive, hand-made jewelry inspired by the art of primeval civilizations from all over the Globe. <image 1> <image 2> <image 3> <image 4> <image 5> Exploring materials, shapes and colors, Nomad jewelry embodies the timeless creativity of Mankind, as experienced and expressed by a creator (Αnnamaria Charalambidou) with an especially rich exposure to World Art. <image 6> The brand's visual identity is a natural expression of the spirit of the jewelry and their creator: a human-like shape, alluding to the timeless nomad/wanderer who walks the Earth and soaks up in images and experiences, and an eye centered at the 'O' – a wink to the creator's unique artistic viewpoint that breathes life to highly personal creations. <image 7> For packaging, small sack pouches are being used to enhance the general concept of nomad's wandering, sharing his stories.. <image 8>",
+    "input_images": [
+      "assets/gallery/data/illustration/>=8/002/input_1.jpg",
+      "assets/gallery/data/illustration/>=8/002/input_2.jpg",
+      "assets/gallery/data/illustration/>=8/002/input_3.jpg",
+      "assets/gallery/data/illustration/>=8/002/input_4.jpg",
+      "assets/gallery/data/illustration/>=8/002/input_5.jpg",
+      "assets/gallery/data/illustration/>=8/002/input_6.jpg",
+      "assets/gallery/data/illustration/>=8/002/input_7.jpg",
+      "assets/gallery/data/illustration/>=8/002/input_8.jpg",
+      "assets/gallery/data/illustration/>=8/002/input_9.jpg"
+    ],
+    "target_image": "assets/gallery/data/illustration/>=8/002/target.jpg"
+  },
+  {
+    "task": "illustration",
+    "imgnum": ">=8",
+    "idx": "003",
+    "prompt": "When it comes to office wear, there's no reason to be restricted to stuffy clothes. The Satine Slit Midi Dress features a soft, smooth cotton finish that makes it divine to wear. Breezy and versatile, it includes a front slit for walkability and pairs perfectly with pumps. <image 1> <image 2> The design includes a simple round neckline and functional double pockets on the sides for added utility. <image 3> <image 4> For a customizable fit, the dress features belt loops and a detachable sash to create a cinched silhouette, complementing its elegant midi length. <image 5> <image 6> <image 7> <image 8> <image 9> With a relaxed fit and soft cotton construction, it ensures all-day comfort.",
+    "input_images": [
+      "assets/gallery/data/illustration/>=8/003/input_1.jpg",
+      "assets/gallery/data/illustration/>=8/003/input_2.jpg",
+      "assets/gallery/data/illustration/>=8/003/input_3.jpg",
+      "assets/gallery/data/illustration/>=8/003/input_4.jpg",
+      "assets/gallery/data/illustration/>=8/003/input_5.jpg",
+      "assets/gallery/data/illustration/>=8/003/input_6.jpg",
+      "assets/gallery/data/illustration/>=8/003/input_7.jpg",
+      "assets/gallery/data/illustration/>=8/003/input_8.jpg",
+      "assets/gallery/data/illustration/>=8/003/input_9.jpg"
+    ],
+    "target_image": "assets/gallery/data/illustration/>=8/003/target.jpg"
+  },
+  {
+    "task": "spatial",
+    "imgnum": "1-3",
+    "idx": "001",
+    "prompt": "From a fixed camera position, <image 1> is the left view, <image 2> is the front-left view, <image 3> is the right view. From above, the sequence Front -> Left -> Back -> Right follows a counter-clockwise order. Generate the back-left view.",
+    "input_images": [
+      "assets/gallery/data/spatial/1-3/001/input_1.jpg",
+      "assets/gallery/data/spatial/1-3/001/input_2.jpg",
+      "assets/gallery/data/spatial/1-3/001/input_3.jpg"
+    ],
+    "target_image": "assets/gallery/data/spatial/1-3/001/target.jpg"
+  },
+  {
+    "task": "spatial",
+    "imgnum": "1-3",
+    "idx": "002",
+    "prompt": "From a fixed camera position, <image 1> is the left view, <image 2> is the front-left view, <image 3> is the right view. From above, the sequence Front -> Left -> Back -> Right follows a counter-clockwise order. Generate the back-left view.",
+    "input_images": [
+      "assets/gallery/data/spatial/1-3/002/input_1.jpg",
+      "assets/gallery/data/spatial/1-3/002/input_2.jpg",
+      "assets/gallery/data/spatial/1-3/002/input_3.jpg"
+    ],
+    "target_image": "assets/gallery/data/spatial/1-3/002/target.jpg"
+  },
+  {
+    "task": "spatial",
+    "imgnum": "1-3",
+    "idx": "003",
+    "prompt": "For a fixed object, <image 1> is the top view, <image 2> is the left view, <image 3> is the back-left view. From above, the sequence Front -> Left -> Back -> Right follows a clockwise order. Generate the bottom view.",
+    "input_images": [
+      "assets/gallery/data/spatial/1-3/003/input_1.jpg",
+      "assets/gallery/data/spatial/1-3/003/input_2.jpg",
+      "assets/gallery/data/spatial/1-3/003/input_3.jpg"
+    ],
+    "target_image": "assets/gallery/data/spatial/1-3/003/target.jpg"
+  },
+  {
+    "task": "spatial",
+    "imgnum": "4-5",
+    "idx": "001",
+    "prompt": "From a fixed camera position, <image 1> is the front-left view, <image 2> is the bottom view, <image 3> is the back-right view, <image 4> is the back view. From above, the sequence Front -> Left -> Back -> Right follows a counter-clockwise order. Generate the left view.",
+    "input_images": [
+      "assets/gallery/data/spatial/4-5/001/input_1.jpg",
+      "assets/gallery/data/spatial/4-5/001/input_2.jpg",
+      "assets/gallery/data/spatial/4-5/001/input_3.jpg",
+      "assets/gallery/data/spatial/4-5/001/input_4.jpg"
+    ],
+    "target_image": "assets/gallery/data/spatial/4-5/001/target.jpg"
+  },
+  {
+    "task": "spatial",
+    "imgnum": "4-5",
+    "idx": "002",
+    "prompt": "From a fixed camera position, <image 1> is the front-left view, <image 2> is the bottom view, <image 3> is the back-right view, <image 4> is the back view. From above, the sequence Front -> Left -> Back -> Right follows a counter-clockwise order. Generate the left view.",
+    "input_images": [
+      "assets/gallery/data/spatial/4-5/002/input_1.jpg",
+      "assets/gallery/data/spatial/4-5/002/input_2.jpg",
+      "assets/gallery/data/spatial/4-5/002/input_3.jpg",
+      "assets/gallery/data/spatial/4-5/002/input_4.jpg"
+    ],
+    "target_image": "assets/gallery/data/spatial/4-5/002/target.jpg"
+  },
+  {
+    "task": "spatial",
+    "imgnum": "4-5",
+    "idx": "003",
+    "prompt": "For a fixed object, <image 1> is the top view, <image 2> is the left view, <image 3> is the back-left view, <image 4> is the back view. From above, the sequence Front -> Left -> Back -> Right follows a clockwise order. Generate the bottom view.",
+    "input_images": [
+      "assets/gallery/data/spatial/4-5/003/input_1.jpg",
+      "assets/gallery/data/spatial/4-5/003/input_2.jpg",
+      "assets/gallery/data/spatial/4-5/003/input_3.jpg",
+      "assets/gallery/data/spatial/4-5/003/input_4.jpg"
+    ],
+    "target_image": "assets/gallery/data/spatial/4-5/003/target.jpg"
+  },
+  {
+    "task": "spatial",
+    "imgnum": "6-7",
+    "idx": "001",
+    "prompt": "From a fixed camera position, <image 1> is the front-left view, <image 2> is the bottom view, <image 3> is the back-right view, <image 4> is the back view, <image 5> is the front view, <image 6> is the front-right view. From above, the sequence Front -> Left -> Back -> Right follows a counter-clockwise order. Generate the left view.",
+    "input_images": [
+      "assets/gallery/data/spatial/6-7/001/input_1.jpg",
+      "assets/gallery/data/spatial/6-7/001/input_2.jpg",
+      "assets/gallery/data/spatial/6-7/001/input_3.jpg",
+      "assets/gallery/data/spatial/6-7/001/input_4.jpg",
+      "assets/gallery/data/spatial/6-7/001/input_5.jpg",
+      "assets/gallery/data/spatial/6-7/001/input_6.jpg"
+    ],
+    "target_image": "assets/gallery/data/spatial/6-7/001/target.jpg"
+  },
+  {
+    "task": "spatial",
+    "imgnum": "6-7",
+    "idx": "002",
+    "prompt": "From a fixed camera position, <image 1> is the front-left view, <image 2> is the bottom view, <image 3> is the back-right view, <image 4> is the back view, <image 5> is the front view, <image 6> is the front-right view. From above, the sequence Front -> Left -> Back -> Right follows a counter-clockwise order. Generate the left view.",
+    "input_images": [
+      "assets/gallery/data/spatial/6-7/002/input_1.jpg",
+      "assets/gallery/data/spatial/6-7/002/input_2.jpg",
+      "assets/gallery/data/spatial/6-7/002/input_3.jpg",
+      "assets/gallery/data/spatial/6-7/002/input_4.jpg",
+      "assets/gallery/data/spatial/6-7/002/input_5.jpg",
+      "assets/gallery/data/spatial/6-7/002/input_6.jpg"
+    ],
+    "target_image": "assets/gallery/data/spatial/6-7/002/target.jpg"
+  },
+  {
+    "task": "spatial",
+    "imgnum": "6-7",
+    "idx": "003",
+    "prompt": "For a fixed object, <image 1> is the top view, <image 2> is the left view, <image 3> is the back-left view, <image 4> is the back view, <image 5> is the front-left view, <image 6> is the right view. From above, the sequence Front -> Left -> Back -> Right follows a clockwise order. Generate the bottom view.",
+    "input_images": [
+      "assets/gallery/data/spatial/6-7/003/input_1.jpg",
+      "assets/gallery/data/spatial/6-7/003/input_2.jpg",
+      "assets/gallery/data/spatial/6-7/003/input_3.jpg",
+      "assets/gallery/data/spatial/6-7/003/input_4.jpg",
+      "assets/gallery/data/spatial/6-7/003/input_5.jpg",
+      "assets/gallery/data/spatial/6-7/003/input_6.jpg"
+    ],
+    "target_image": "assets/gallery/data/spatial/6-7/003/target.jpg"
+  },
+  {
+    "task": "spatial",
+    "imgnum": ">=8",
+    "idx": "001",
+    "prompt": "From a fixed camera position, <image 1> is the front-left view, <image 2> is the bottom view, <image 3> is the back-right view, <image 4> is the back view, <image 5> is the front view, <image 6> is the front-right view, <image 7> is the right view, <image 8> is the back-left view. From above, the sequence Front -> Left -> Back -> Right follows a counter-clockwise order. Generate the left view.",
+    "input_images": [
+      "assets/gallery/data/spatial/>=8/001/input_1.jpg",
+      "assets/gallery/data/spatial/>=8/001/input_2.jpg",
+      "assets/gallery/data/spatial/>=8/001/input_3.jpg",
+      "assets/gallery/data/spatial/>=8/001/input_4.jpg",
+      "assets/gallery/data/spatial/>=8/001/input_5.jpg",
+      "assets/gallery/data/spatial/>=8/001/input_6.jpg",
+      "assets/gallery/data/spatial/>=8/001/input_7.jpg",
+      "assets/gallery/data/spatial/>=8/001/input_8.jpg"
+    ],
+    "target_image": "assets/gallery/data/spatial/>=8/001/target.jpg"
+  },
+  {
+    "task": "spatial",
+    "imgnum": ">=8",
+    "idx": "002",
+    "prompt": "From a fixed camera position, <image 1> is the front-left view, <image 2> is the bottom view, <image 3> is the back-right view, <image 4> is the back view, <image 5> is the front view, <image 6> is the front-right view, <image 7> is the right view, <image 8> is the back-left view. From above, the sequence Front -> Left -> Back -> Right follows a counter-clockwise order. Generate the left view.",
+    "input_images": [
+      "assets/gallery/data/spatial/>=8/002/input_1.jpg",
+      "assets/gallery/data/spatial/>=8/002/input_2.jpg",
+      "assets/gallery/data/spatial/>=8/002/input_3.jpg",
+      "assets/gallery/data/spatial/>=8/002/input_4.jpg",
+      "assets/gallery/data/spatial/>=8/002/input_5.jpg",
+      "assets/gallery/data/spatial/>=8/002/input_6.jpg",
+      "assets/gallery/data/spatial/>=8/002/input_7.jpg",
+      "assets/gallery/data/spatial/>=8/002/input_8.jpg"
+    ],
+    "target_image": "assets/gallery/data/spatial/>=8/002/target.jpg"
+  },
+  {
+    "task": "spatial",
+    "imgnum": ">=8",
+    "idx": "003",
+    "prompt": "For a fixed object, <image 1> is the top view, <image 2> is the left view, <image 3> is the back-left view, <image 4> is the back view, <image 5> is the front-left view, <image 6> is the right view, <image 7> is the front-right view, <image 8> is the back-right view. From above, the sequence Front -> Left -> Back -> Right follows a clockwise order. Generate the bottom view.",
+    "input_images": [
+      "assets/gallery/data/spatial/>=8/003/input_1.jpg",
+      "assets/gallery/data/spatial/>=8/003/input_2.jpg",
+      "assets/gallery/data/spatial/>=8/003/input_3.jpg",
+      "assets/gallery/data/spatial/>=8/003/input_4.jpg",
+      "assets/gallery/data/spatial/>=8/003/input_5.jpg",
+      "assets/gallery/data/spatial/>=8/003/input_6.jpg",
+      "assets/gallery/data/spatial/>=8/003/input_7.jpg",
+      "assets/gallery/data/spatial/>=8/003/input_8.jpg"
+    ],
+    "target_image": "assets/gallery/data/spatial/>=8/003/target.jpg"
+  },
+  {
+    "task": "temporal",
+    "imgnum": "1-3",
+    "idx": "001",
+    "prompt": "The video sequence <image 1>, <image 2> depicts A montage featuring a person eating, a hand sketching on a storyboard, and an overhead view of a creative team working at a table. A large red \"SUBSCRIBE\" graphic with animated lightning effects is superimposed across the changing scenes. Generate the next key frame for this video.",
+    "input_images": [
+      "assets/gallery/data/temporal/1-3/001/input_1.jpg",
+      "assets/gallery/data/temporal/1-3/001/input_2.jpg"
+    ],
+    "target_image": "assets/gallery/data/temporal/1-3/001/target.jpg"
+  },
+  {
+    "task": "temporal",
+    "imgnum": "1-3",
+    "idx": "002",
+    "prompt": "The video sequence <image 1>, <image 2>, <image 3> depicts A man stands before a table filled with small cups of red and green liquid. He rapidly consumes the contents in a timed challenge, stacking the empty cups as he goes. Finally, he walks away from the table leaving behind stacks of empty cups and a timer showing the elapsed time. Generate the next key frame for this video.",
+    "input_images": [
+      "assets/gallery/data/temporal/1-3/002/input_1.jpg",
+      "assets/gallery/data/temporal/1-3/002/input_2.jpg",
+      "assets/gallery/data/temporal/1-3/002/input_3.jpg"
+    ],
+    "target_image": "assets/gallery/data/temporal/1-3/002/target.jpg"
+  },
+  {
+    "task": "temporal",
+    "imgnum": "1-3",
+    "idx": "003",
+    "prompt": "The video sequence <image 1>, <image 2>, <image 3> depicts soccer players compete on a field, after which the scoreboard updates to reflect a goal. A player in yellow celebrates, joined by jubilant teammates hugging. Finally, the crowd in the stands cheers wildly with raised arms. Generate the next key frame for this video.",
+    "input_images": [
+      "assets/gallery/data/temporal/1-3/003/input_1.jpg",
+      "assets/gallery/data/temporal/1-3/003/input_2.jpg",
+      "assets/gallery/data/temporal/1-3/003/input_3.jpg"
+    ],
+    "target_image": "assets/gallery/data/temporal/1-3/003/target.jpg"
+  },
+  {
+    "task": "temporal",
+    "imgnum": "4-5",
+    "idx": "001",
+    "prompt": "The video sequence <image 1>, <image 2>, <image 3>, <image 4> depicts A person prepares batter in a glass bowl by whisking ingredients, adding liquid, incorporating pumpkin puree, pouring in dry ingredients, and mixing everything together with a spatula. Generate the next key frame for this video.",
+    "input_images": [
+      "assets/gallery/data/temporal/4-5/001/input_1.jpg",
+      "assets/gallery/data/temporal/4-5/001/input_2.jpg",
+      "assets/gallery/data/temporal/4-5/001/input_3.jpg",
+      "assets/gallery/data/temporal/4-5/001/input_4.jpg"
+    ],
+    "target_image": "assets/gallery/data/temporal/4-5/001/target.jpg"
+  },
+  {
+    "task": "temporal",
+    "imgnum": "4-5",
+    "idx": "002",
+    "prompt": "The video sequence <image 1>, <image 2>, <image 3>, <image 4>, <image 5> depicts Construction workers build a house, progressing from erecting the initial wooden frame to installing the roof and finishing the exterior walls. Generate the next key frame for this video.",
+    "input_images": [
+      "assets/gallery/data/temporal/4-5/002/input_1.jpg",
+      "assets/gallery/data/temporal/4-5/002/input_2.jpg",
+      "assets/gallery/data/temporal/4-5/002/input_3.jpg",
+      "assets/gallery/data/temporal/4-5/002/input_4.jpg",
+      "assets/gallery/data/temporal/4-5/002/input_5.jpg"
+    ],
+    "target_image": "assets/gallery/data/temporal/4-5/002/target.jpg"
+  },
+  {
+    "task": "temporal",
+    "imgnum": "4-5",
+    "idx": "003",
+    "prompt": "The video sequence <image 1>, <image 2>, <image 3>, <image 4>, <image 5> depicts A person prepares batter in a glass bowl by sequentially adding flour, eggs, milk, and salt. They use a whisk and their hands to combine the ingredients on a wooden table. Generate the next key frame for this video.",
+    "input_images": [
+      "assets/gallery/data/temporal/4-5/003/input_1.jpg",
+      "assets/gallery/data/temporal/4-5/003/input_2.jpg",
+      "assets/gallery/data/temporal/4-5/003/input_3.jpg",
+      "assets/gallery/data/temporal/4-5/003/input_4.jpg",
+      "assets/gallery/data/temporal/4-5/003/input_5.jpg"
+    ],
+    "target_image": "assets/gallery/data/temporal/4-5/003/target.jpg"
+  },
+  {
+    "task": "temporal",
+    "imgnum": "6-7",
+    "idx": "001",
+    "prompt": "The video sequence <image 1>, <image 2>, <image 3>, <image 4>, <image 5>, <image 6> depicts Two girls create a DIY Christmas tree and a December advent calendar. They paint a green tree, draw a calendar grid, and attach small purple eggs as decorations. The sequence follows their progress from blank boards to finished holiday-themed crafts. Generate the next key frame for this video.",
+    "input_images": [
+      "assets/gallery/data/temporal/6-7/001/input_1.jpg",
+      "assets/gallery/data/temporal/6-7/001/input_2.jpg",
+      "assets/gallery/data/temporal/6-7/001/input_3.jpg",
+      "assets/gallery/data/temporal/6-7/001/input_4.jpg",
+      "assets/gallery/data/temporal/6-7/001/input_5.jpg",
+      "assets/gallery/data/temporal/6-7/001/input_6.jpg"
+    ],
+    "target_image": "assets/gallery/data/temporal/6-7/001/target.jpg"
+  },
+  {
+    "task": "temporal",
+    "imgnum": "6-7",
+    "idx": "002",
+    "prompt": "The video sequence <image 1>, <image 2>, <image 3>, <image 4>, <image 5>, <image 6> depicts A person prepares blueberry muffins by lining a tin, filling it with batter, sprinkling sugar on top, and baking them in the oven. After baking, the golden-brown muffins are removed and checked with a knife. Generate the next key frame for this video.",
+    "input_images": [
+      "assets/gallery/data/temporal/6-7/002/input_1.jpg",
+      "assets/gallery/data/temporal/6-7/002/input_2.jpg",
+      "assets/gallery/data/temporal/6-7/002/input_3.jpg",
+      "assets/gallery/data/temporal/6-7/002/input_4.jpg",
+      "assets/gallery/data/temporal/6-7/002/input_5.jpg",
+      "assets/gallery/data/temporal/6-7/002/input_6.jpg"
+    ],
+    "target_image": "assets/gallery/data/temporal/6-7/002/target.jpg"
+  },
+  {
+    "task": "temporal",
+    "imgnum": "6-7",
+    "idx": "003",
+    "prompt": "The video sequence <image 1>, <image 2>, <image 3>, <image 4>, <image 5>, <image 6>, <image 7> depicts A person prepares macaroni and cheese by whisking butter and flour into a roux, adding milk to create a sauce, mixing in shredded cheese and seasonings, and finally stirring in cooked macaroni until the dish is fully combined. Generate the next key frame for this video.",
+    "input_images": [
+      "assets/gallery/data/temporal/6-7/003/input_1.jpg",
+      "assets/gallery/data/temporal/6-7/003/input_2.jpg",
+      "assets/gallery/data/temporal/6-7/003/input_3.jpg",
+      "assets/gallery/data/temporal/6-7/003/input_4.jpg",
+      "assets/gallery/data/temporal/6-7/003/input_5.jpg",
+      "assets/gallery/data/temporal/6-7/003/input_6.jpg",
+      "assets/gallery/data/temporal/6-7/003/input_7.jpg"
+    ],
+    "target_image": "assets/gallery/data/temporal/6-7/003/target.jpg"
+  },
+  {
+    "task": "temporal",
+    "imgnum": ">=8",
+    "idx": "001",
+    "prompt": "The video sequence <image 1>, <image 2>, <image 3>, <image 4>, <image 5>, <image 6>, <image 7>, <image 8>, <image 9>, <image 10>, <image 11>, <image 12> depicts Sliced mushrooms are sautéed, dusted with flour, and simmered with broth, herbs, and cream to create a thick sauce. Cooked chicken pieces are then added and stirred into the creamy mixture. Generate the next key frame for this video.",
+    "input_images": [
+      "assets/gallery/data/temporal/>=8/001/input_1.jpg",
+      "assets/gallery/data/temporal/>=8/001/input_2.jpg",
+      "assets/gallery/data/temporal/>=8/001/input_3.jpg",
+      "assets/gallery/data/temporal/>=8/001/input_4.jpg",
+      "assets/gallery/data/temporal/>=8/001/input_5.jpg",
+      "assets/gallery/data/temporal/>=8/001/input_6.jpg",
+      "assets/gallery/data/temporal/>=8/001/input_7.jpg",
+      "assets/gallery/data/temporal/>=8/001/input_8.jpg",
+      "assets/gallery/data/temporal/>=8/001/input_9.jpg",
+      "assets/gallery/data/temporal/>=8/001/input_10.jpg",
+      "assets/gallery/data/temporal/>=8/001/input_11.jpg",
+      "assets/gallery/data/temporal/>=8/001/input_12.jpg"
+    ],
+    "target_image": "assets/gallery/data/temporal/>=8/001/target.jpg"
+  },
+  {
+    "task": "temporal",
+    "imgnum": ">=8",
+    "idx": "002",
+    "prompt": "The video sequence <image 1>, <image 2>, <image 3>, <image 4>, <image 5>, <image 6>, <image 7>, <image 8>, <image 9>, <image 10> depicts Wide noodles are boiled, drained, and mixed with meat sauce in a pan. The dish is then plated in a bowl and garnished with grated cheese and fresh basil leaves. Generate the next key frame for this video.",
+    "input_images": [
+      "assets/gallery/data/temporal/>=8/002/input_1.jpg",
+      "assets/gallery/data/temporal/>=8/002/input_2.jpg",
+      "assets/gallery/data/temporal/>=8/002/input_3.jpg",
+      "assets/gallery/data/temporal/>=8/002/input_4.jpg",
+      "assets/gallery/data/temporal/>=8/002/input_5.jpg",
+      "assets/gallery/data/temporal/>=8/002/input_6.jpg",
+      "assets/gallery/data/temporal/>=8/002/input_7.jpg",
+      "assets/gallery/data/temporal/>=8/002/input_8.jpg",
+      "assets/gallery/data/temporal/>=8/002/input_9.jpg",
+      "assets/gallery/data/temporal/>=8/002/input_10.jpg"
+    ],
+    "target_image": "assets/gallery/data/temporal/>=8/002/target.jpg"
+  },
+  {
+    "task": "temporal",
+    "imgnum": ">=8",
+    "idx": "003",
+    "prompt": "The video sequence <image 1>, <image 2>, <image 3>, <image 4>, <image 5>, <image 6>, <image 7>, <image 8>, <image 9>, <image 10>, <image 11>, <image 12>, <image 13>, <image 14>, <image 15>, <image 16>, <image 17>, <image 18> depicts Hands prepare dumpling dough, cut it into pieces, and flatten them. The dumplings are filled, folded, and pan-fried until golden brown. Finally, a woman enjoys the finished dumplings with chopsticks. Generate the next key frame for this video.",
+    "input_images": [
+      "assets/gallery/data/temporal/>=8/003/input_1.jpg",
+      "assets/gallery/data/temporal/>=8/003/input_2.jpg",
+      "assets/gallery/data/temporal/>=8/003/input_3.jpg",
+      "assets/gallery/data/temporal/>=8/003/input_4.jpg",
+      "assets/gallery/data/temporal/>=8/003/input_5.jpg",
+      "assets/gallery/data/temporal/>=8/003/input_6.jpg",
+      "assets/gallery/data/temporal/>=8/003/input_7.jpg",
+      "assets/gallery/data/temporal/>=8/003/input_8.jpg",
+      "assets/gallery/data/temporal/>=8/003/input_9.jpg",
+      "assets/gallery/data/temporal/>=8/003/input_10.jpg",
+      "assets/gallery/data/temporal/>=8/003/input_11.jpg",
+      "assets/gallery/data/temporal/>=8/003/input_12.jpg",
+      "assets/gallery/data/temporal/>=8/003/input_13.jpg",
+      "assets/gallery/data/temporal/>=8/003/input_14.jpg",
+      "assets/gallery/data/temporal/>=8/003/input_15.jpg",
+      "assets/gallery/data/temporal/>=8/003/input_16.jpg",
+      "assets/gallery/data/temporal/>=8/003/input_17.jpg",
+      "assets/gallery/data/temporal/>=8/003/input_18.jpg"
+    ],
+    "target_image": "assets/gallery/data/temporal/>=8/003/target.jpg"
+  }
+]
