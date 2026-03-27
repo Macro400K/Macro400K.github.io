@@ -586,6 +586,7 @@ section:nth-child(even) { background: var(--surface); }
   font-size: 0.85rem;
   line-height: 1.8;
   overflow-x: auto;
+  white-space: pre;
 }
 
 .bibtex-copy {
